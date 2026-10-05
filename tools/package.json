@@ -1,0 +1,10 @@
+{
+  "name": "two-worlds-one-mind-tools",
+  "private": true,
+  "description": "Pinned tools for building and checking the book (not part of the book)",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "11.4.2",
+    "markdownlint-cli2": "0.15.0",
+    "puppeteer": "23.10.4"
+  }
+}

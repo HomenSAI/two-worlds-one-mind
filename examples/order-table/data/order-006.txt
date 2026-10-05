@@ -1,0 +1,11 @@
+*** SYNTHETIC TRAINING DATA - not a real order, invented for this example ***
+
+Order confirmation
+Order: SYN-2020-006
+Date: 2020-05-18
+Customer: Example Customer 06
+Net: EUR 10,000.00
+VAT 19%: EUR 1,900.00
+Total (gross): EUR 11,900.00
+
+Delivery within 8 weeks.

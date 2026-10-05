@@ -1,0 +1,10 @@
+*** SYNTHETIC TRAINING DATA - not a real order, invented for this example ***
+
+Order confirmation
+Order: SYN-2021-011
+Date: 2021-06-30
+Customer: Example Customer 11
+Item: demo conveyor, quantity 1
+Total: EUR 2,10
+
+Delivery within 8 weeks.

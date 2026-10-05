@@ -1,0 +1,10 @@
+*** SYNTHETIC TRAINING DATA - not a real order, invented for this example ***
+
+Order confirmation
+Order: SYN-2021-009
+Date: 2021-01-15
+Customer: Example Customer 09
+Item: demo conveyor, quantity 1
+Total: JPY 1,250,000
+
+Delivery within 8 weeks.

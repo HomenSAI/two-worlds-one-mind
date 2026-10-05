@@ -1,0 +1,13 @@
+file,order_id,year,amount,currency,status,reason
+order-001.txt,SYN-2019-001,2019,12450.0,EUR,ok,
+order-002.txt,SYN-2019-002,2019,8.9005,EUR,ok,
+order-003.txt,SYN-2019-003,2019,3200.0,USD,ok,
+order-004.txt,SYN-2019-004,2019,1.25,EUR,ok,
+order-005.txt,SYN-2020-005,2020,,,ok,
+order-006.txt,SYN-2020-006,2020,11900.0,EUR,ok,
+order-007.txt,SYN-2020-007,2020,3200.0,EUR,ok,
+order-008.txt,SYN-2020-008,2020,45.0,EUR,ok,
+order-009.txt,SYN-2021-009,2021,1250000.0,,ok,
+order-010.txt,SYN-2021-010,2021,7.5,EUR,ok,
+order-011.txt,SYN-2021-011,2021,210.0,EUR,ok,
+order-012.txt,SYN-2022-012,,5.0,EUR,ok,
