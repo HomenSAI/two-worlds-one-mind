@@ -20,13 +20,13 @@ PyYAML 6.0.2, bibtexparser 1.4.2, poppler-utils (Debian 12) for page images. The
 | `check_links.py` | `LINKS: OK` (44 Markdown files: relative links, anchors, language separation, counterparts, semantic checks of chapter and section captions) |
 | `check_text.py` | `TEXT: OK` (28 forbidden phrases absent, 22 required statements present, EXP-001 fields all PENDING or marked as reported) |
 | `check_svg.py` | `SVG: OK` (2 SVG files well-formed, no scripts or external resources, 4 image references resolve) |
-| `selftest.py` | `SELFTEST: OK`, 18 injected defects all caught (see below) |
+| `selftest.py` | `SELFTEST: OK`, 19 injected defects all caught (see below) |
 | `mermaid_render.py` | `MERMAID: OK`, 24 blocks rendered (12 English + 12 German); no other Markdown file has a block |
 | `examples/order-table/run_example.py` | attempt 1 `FAIL (18 failure(s))`, attempt 2 `PASS (0 failure(s))`, `EXAMPLE OK` |
 | `markdownlint-cli2` | 44 files, 0 errors (settings and reasons in `.markdownlint-cli2.jsonc`) |
 
 **Self-test.** A check that cannot fail proves nothing, so `selftest.py` makes a copy of the repository,
-injects one defect at a time and expects the right check to fail. The 18 defects include the audit's own:
+injects one defect at a time and expects the right check to fail. The 19 defects include the audit's own:
 invalid `type: generic` in a CFF file, the essay DOI in the book record, a draft pointing at a
 non-existent release, a "forever" promise, a DOI badge without the essay label, the wrong chapter in a link
 caption (C11), a missing anchor, a German file linking into the English folder, an old absolute coming back

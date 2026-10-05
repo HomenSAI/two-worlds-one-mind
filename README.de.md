@@ -12,6 +12,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg" alt="Lizenz: CC BY 4.0"></a>
+  <a href="https://doi.org/10.5281/zenodo.23160031"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23160031.svg" alt="DOI des Buches 10.5281/zenodo.23160031 (Ausgabe 1.1 des ganzen Buches)"></a>
   <a href="https://doi.org/10.5281/zenodo.23119816"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23119816.svg" alt="DOI des Vision-Essays 10.5281/zenodo.23119816 (nur der Essay, nicht das ganze Buch)"></a>
 </p>
 
@@ -117,7 +118,11 @@ maschinenlesbaren Einträge stehen in [CITATION.bib](CITATION.bib).
 
 > Khomenko, S. (2026). *Two Worlds. One Mind. From code to intent: a short handbook on building where
 > software meets the physical world* (deutsche Ausgabe: *Zwei Welten. Ein Geist.*). Ausgabe 1.1.
-> Selbstverlag. <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1>
+> Zenodo. <https://doi.org/10.5281/zenodo.23160031>
+
+Das ist die Versions-DOI der Ausgabe 1.1 (Englisch und Deutsch, PDF und HTML, archiviert am 5. Oktober 2026).
+Die DOI, die immer zur neuesten Version des Buches führt, ist 10.5281/zenodo.23160030. Die Release-Seite mit
+denselben Dateien: <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1>.
 
 Die veröffentlichte erste Ausgabe: Khomenko, S. (2026). *Two Worlds. One Mind. …* Ausgabe 1.0.
 <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.0>
@@ -128,15 +133,15 @@ Englisch und Deutsch archiviert:
 > Khomenko, S. (2026). *Vision: Life beyond Earth, carried by machines (Homo roboticus).* Zenodo.
 > <https://doi.org/10.5281/zenodo.23119816>
 
-Diese DOI bezeichnet den Essay, **nicht dieses Handbuch**. Das Handbuch hat noch keinen eigenen
-Archiveintrag; seine veröffentlichten Versionen sind über GitHub Releases verfügbar. Warum es keine
+Diese DOI bezeichnet den Essay, **nicht dieses Handbuch**. Das Handbuch hat einen eigenen Archiveintrag
+(die DOI oben). Warum es keine
 `CITATION.cff` gibt: [docs/citation.md](docs/citation.md).
 
 ## Versionen
 
 Jede Änderung steht in [CHANGELOG.md](CHANGELOG.md). Veröffentlichte Versionen werden durch Git-Tags und
 GitHub Releases gekennzeichnet (`v1.0`, `v1.1`, …); ein Tag ist keine Garantie für dauerhafte Aufbewahrung.
-Dafür nutzen Sie einen Archiveintrag, sofern es ihn gibt (für das Handbuch gibt es noch keinen). Welche
+Dafür nutzen Sie den Archiveintrag: Die Ausgabe 1.1 des Handbuchs liegt auf Zenodo ([10.5281/zenodo.23160031](https://doi.org/10.5281/zenodo.23160031)). Welche
 Ausgabe aus welcher Version der Website und welchem Commit entstand:
 [docs/provenance.md](docs/provenance.md).
 

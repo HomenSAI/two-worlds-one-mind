@@ -23,8 +23,9 @@ German (PDF, CC BY 4.0):
 [10.5281/zenodo.23119816](https://doi.org/10.5281/zenodo.23119816) is the version DOI of that
 essay, and 10.5281/zenodo.23119815 is the concept DOI of its versions. These identifiers identify
 the essay, **not this handbook**. Published versions of the handbook are available through
-[GitHub Releases](https://github.com/HomenSAI/two-worlds-one-mind/releases); a separate archive
-record for the whole book has not been created yet.
+[GitHub Releases](https://github.com/HomenSAI/two-worlds-one-mind/releases). The whole book, edition 1.1,
+is archived on Zenodo as a separate record, [10.5281/zenodo.23160031](https://doi.org/10.5281/zenodo.23160031) (concept DOI of all its
+versions: 10.5281/zenodo.23160030); it is a different record from the essay.
 
 An archive confirms that a given text existed on a given date. It does not by itself establish
 that an idea is original or give exclusive rights to it.

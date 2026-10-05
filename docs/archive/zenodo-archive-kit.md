@@ -1,8 +1,9 @@
-# Kit for archiving the whole book on Zenodo (not done yet)
+# Kit for archiving the whole book on Zenodo (used for edition 1.1)
 
-Status: **prepared, not executed.** No archive record of the handbook exists. No DOI is claimed
-and none must be invented. The existing record 23119816 is the Vision essay and must not be reused
-or edited to stand for the book.
+Status: **executed on 5 October 2026.** The record of edition 1.1 is Zenodo [10.5281/zenodo.23160031](https://doi.org/10.5281/zenodo.23160031)
+(concept DOI 10.5281/zenodo.23160030); files uploaded by hand (option b below) from the assets of the GitHub release
+`v1.1`, checksums verified. The existing record 23119816 is the Vision essay and was not touched.
+For later editions, create a new *version* of the same record (so the concept DOI stays the same).
 
 Why separately: Zenodo creates a record per upload (or per GitHub release if the repository is
 switched on in the owner's Zenodo account). Doing this is an account action by the owner, after

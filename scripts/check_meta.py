@@ -47,8 +47,8 @@ def main():
             blob = " ".join(str(v) for v in e.values())
             if any(i in blob for i in essay_ids):
                 err(f"CITATION.bib {k}: a book record carries a Zenodo DOI of the Vision essay")
-            if "doi" in e:
-                err(f"CITATION.bib {k}: the book has no DOI of its own yet; none may be listed")
+            if "doi" in e and not (k == "khomenko2026twoworlds" and e["doi"] == "10.5281/zenodo.23160031"):
+                err(f"CITATION.bib {k}: only the record of edition 1.1 may carry the book's own DOI (10.5281/zenodo.23160031)")
     v = entries.get("khomenko2026vision")                                            # M3
     if not v or v.get("doi") != "10.5281/zenodo.23119816" or v["ENTRYTYPE"] != "misc":
         err("CITATION.bib: the Vision essay record is missing or wrong (must be @misc with doi 10.5281/zenodo.23119816)")

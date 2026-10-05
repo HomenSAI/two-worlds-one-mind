@@ -40,7 +40,7 @@ the common e-readers within this edition, and a poor EPUB would be worse than no
 
 | Script | What it checks |
 |--------|----------------|
-| `check_meta.py` | `CITATION.bib` (parse, fields, book and essay kept apart, no DOI for the book), the issue form, the workflows (read-only permissions, actions pinned by SHA), `VERSION` matches README, CHANGELOG and the citation; no "forever" or sync promises; the DOI badge is labelled; no invalid `CITATION.cff` |
+| `check_meta.py` | `CITATION.bib` (parse, fields, book and essay kept apart, the book carries only its own Zenodo DOI, on the record of edition 1.1), the issue form, the workflows (read-only permissions, actions pinned by SHA), `VERSION` matches README, CHANGELOG and the citation; no "forever" or sync promises; the DOI badge is labelled; no invalid `CITATION.cff` |
 | `check_links.py` | all relative links, images and `#anchors` in all Markdown files, EN and DE; the language switch; German files link only to German files; each English chapter has its German counterpart; semantic checks (a link text "Chapter 3" must lead into chapter 3, "section 6" into a heading numbered 6, "Next" must lead to the next chapter) |
 | `check_text.py` | regression guard for the editorial corrections: forbidden old phrases (EN/DE), required new statements, EXP-001 fields all `PENDING` or marked as reported, no invented numbers |
 | `selftest.py` | injects known defects (the audit's own among them) into a copy of the repository and expects each check to fail |

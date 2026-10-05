@@ -12,12 +12,17 @@ the site is in [docs/provenance.md](docs/provenance.md).
 
 ## Unreleased
 
-Nothing yet.
+- The whole book, edition 1.1, is archived on Zenodo as its own record: version DOI
+  [10.5281/zenodo.23160031](https://doi.org/10.5281/zenodo.23160031), concept DOI 10.5281/zenodo.23160030 (files: PDF and HTML in English and German,
+  `SHA256SUMS`, `manifest.json`, source archive of tag `v1.1`). README, `CITATION.bib`, Notes (EN/DE),
+  `docs/citation.md` and `docs/provenance.md` now carry this DOI; the Vision essay keeps its own
+  DOIs and label. `scripts/check_meta.py` allows the book's own DOI only on the record of edition 1.1.
 
 ## [1.1] — 2026-10-05
 
 Git tag `v1.1`, GitHub release with the PDF and HTML files (English and German), `SHA256SUMS` and
-`manifest.json`. No archive record (DOI) exists for the whole book yet. The changes follow the
+`manifest.json`. No archive record (DOI) existed for the whole book at the time of the release (it was
+created the same day, see *Unreleased*). The changes follow the
 audit of 5 October 2026; each finding and what was done about it is in
 [docs/audit-resolution.md](docs/audit-resolution.md).
 

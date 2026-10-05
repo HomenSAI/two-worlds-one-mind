@@ -1,7 +1,7 @@
 # Release checklist for edition 1.1
 
 Status: **executed on 5 October 2026** by the owner's instruction (merge, release commit, tag `v1.1`,
-release). Steps after the release (archive record, settings, site page) are still open.
+release). The archive record on Zenodo was created on 5 October 2026 (10.5281/zenodo.23160031). Settings and the site page are still open.
 
 ## Before the merge
 

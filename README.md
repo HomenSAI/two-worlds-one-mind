@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0"></a>
+  <a href="https://doi.org/10.5281/zenodo.23160031"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23160031.svg" alt="Book DOI 10.5281/zenodo.23160031 (edition 1.1 of the whole book)"></a>
   <a href="https://doi.org/10.5281/zenodo.23119816"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.23119816.svg" alt="Vision essay DOI 10.5281/zenodo.23119816 (the essay only, not the whole book)"></a>
 </p>
 
@@ -112,8 +113,12 @@ records are in [CITATION.bib](CITATION.bib).
 **The book (edition 1.1):**
 
 > Khomenko, S. (2026). *Two Worlds. One Mind. From code to intent: a short handbook on building
-> where software meets the physical world.* Edition 1.1. Self-published.
-> <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1>
+> where software meets the physical world.* Edition 1.1. Zenodo.
+> <https://doi.org/10.5281/zenodo.23160031>
+
+This is the version DOI of edition 1.1 (English and German, PDF and HTML, archived on 5 October 2026).
+The DOI that always leads to the latest version of the book is 10.5281/zenodo.23160030. The
+release page with the same files: <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1>.
 
 The published first edition: Khomenko, S. (2026). *Two Worlds. One Mind. …* Edition 1.0.
 <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.0>
@@ -124,15 +129,15 @@ on Zenodo in English and German:
 > Khomenko, S. (2026). *Vision: Life beyond Earth, carried by machines (Homo roboticus).* Zenodo.
 > <https://doi.org/10.5281/zenodo.23119816>
 
-That DOI identifies the essay, **not this handbook**. The handbook has no archive record of its own
-yet; its published versions are available through GitHub Releases. Why there is no
-`CITATION.cff`: [docs/citation.md](docs/citation.md).
+That DOI identifies the essay, **not this handbook**. The handbook has its own archive record (the
+DOI above). Why there is no `CITATION.cff`: [docs/citation.md](docs/citation.md).
 
 ## Versions
 
 Every change is listed in [CHANGELOG.md](CHANGELOG.md). Published versions are identified by Git
 tags and GitHub Releases (`v1.0`, `v1.1`, …); a tag is not a guarantee of long-term preservation. For
-that, use an archive record when one exists (for the handbook none exists yet). Which edition was
+that, use the archive record: for the handbook, edition 1.1 is on Zenodo ([10.5281/zenodo.23160031](https://doi.org/10.5281/zenodo.23160031)).
+Which edition was
 written from which version of the site, and which commit: [docs/provenance.md](docs/provenance.md).
 
 ## License

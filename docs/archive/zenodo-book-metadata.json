@@ -1,5 +1,5 @@
 {
-  "_comment": "DRAFT for a future separate Zenodo record of the book. No DOI exists for it. Do not rename this file to .zenodo.json until the owner decides to archive.",
+  "_comment": "Metadata used for the Zenodo record of edition 1.1 (version DOI 10.5281/zenodo.23160031, concept DOI 10.5281/zenodo.23160030, published 5 October 2026). Kept here, not as .zenodo.json, so that nothing happens by accident when a release is published.",
   "upload_type": "publication",
   "publication_type": "book",
   "title": "Two Worlds. One Mind. From code to intent: a short handbook on building where software meets the physical world",
@@ -13,8 +13,15 @@
   "version": "1.1",
   "language": "eng",
   "license": "cc-by-4.0",
-  "publication_date": "TO BE FILLED AT PUBLICATION",
-  "keywords": ["systems engineering", "AI-assisted work", "physical AI", "robotics", "handbook", "local AI"],
+  "publication_date": "2026-10-05",
+  "keywords": [
+    "systems engineering",
+    "AI-assisted work",
+    "physical AI",
+    "robotics",
+    "handbook",
+    "local AI"
+  ],
   "related_identifiers": [
     {
       "relation": "isDerivedFrom",
@@ -24,7 +31,7 @@
     },
     {
       "relation": "isSupplementTo",
-      "identifier": "TO BE FILLED: URL of the GitHub release of this version",
+      "identifier": "https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1",
       "scheme": "url"
     }
   ]

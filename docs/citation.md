@@ -31,8 +31,8 @@ is adopted later, the validator in
 | | Handbook | Vision essay |
 |---|----------|--------------|
 | Title | Two Worlds. One Mind. From code to intent | Vision: Life beyond Earth, carried by machines (Homo roboticus) |
-| Identifier | Git tag / release URL; no DOI | Zenodo version DOI 10.5281/zenodo.23119816, concept DOI 10.5281/zenodo.23119815 |
-| Archive | none yet | Zenodo record 23119816: two PDFs (English, German) |
+| Identifier | Zenodo version DOI of edition 1.1 10.5281/zenodo.23160031 (concept DOI 10.5281/zenodo.23160030); Git tag / release URL | Zenodo version DOI 10.5281/zenodo.23119816, concept DOI 10.5281/zenodo.23119815 |
+| Archive | Zenodo record 23160031: PDF and HTML (English, German), checksums, manifest, source archive of tag v1.1 | Zenodo record 23119816: two PDFs (English, German) |
 
 Checked on 5 October 2026 against the public Zenodo API: record 23119816, title as above,
 published 2026-10-03, version 1.0, licence CC BY 4.0, files `Khomenko_Vision_en.pdf` and
