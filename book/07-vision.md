@@ -28,7 +28,7 @@ do, or where a mind could live. This one may be among the last: the mind leaves 
 biology.
 
 <p align="center">
-  <img src="../assets/line-of-development.svg" alt="A simplified illustration of the line of development on a night sky: ape-like ancestor, Australopithecus, Homo habilis, Homo erectus, Homo sapiens — and, as a speculative continuation, Homo roboticus, drawn as the HomenS.A robot with a TV-set head, two antennas and the gear-and-circuit mark on its chest" width="100%">
+  <img src="../assets/line-of-development.svg" alt="A simplified illustration of the line of development on a night sky: early ancestors, Australopithecus, Homo habilis, Homo erectus, Homo sapiens — and, as a speculative continuation, Homo roboticus, drawn as the HomenS.A robot with a TV-set head, two antennas and the gear-and-circuit mark on its chest" width="100%">
 </p>
 
 The last figure is the robot from my site: a chrome "TV-set" head, two antennas with a gold and a

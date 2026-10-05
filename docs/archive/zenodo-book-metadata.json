@@ -1,0 +1,31 @@
+{
+  "_comment": "DRAFT for a future separate Zenodo record of the book. No DOI exists for it. Do not rename this file to .zenodo.json until the owner decides to archive.",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "title": "Two Worlds. One Mind. From code to intent: a short handbook on building where software meets the physical world",
+  "creators": [
+    {
+      "name": "Khomenko, Serhii",
+      "orcid": "0009-0009-5371-9717"
+    }
+  ],
+  "description": "A short handbook on systems thinking, AI-assisted work and the point where machines and software meet, with practical checklists, a worked example and a clearly marked speculative essay (Chapter 7). English edition with a German translation.",
+  "version": "1.1",
+  "language": "eng",
+  "license": "cc-by-4.0",
+  "publication_date": "TO BE FILLED AT PUBLICATION",
+  "keywords": ["systems engineering", "AI-assisted work", "physical AI", "robotics", "handbook", "local AI"],
+  "related_identifiers": [
+    {
+      "relation": "isDerivedFrom",
+      "identifier": "10.5281/zenodo.23119816",
+      "resource_type": "publication-other",
+      "scheme": "doi"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "TO BE FILLED: URL of the GitHub release of this version",
+      "scheme": "url"
+    }
+  ]
+}

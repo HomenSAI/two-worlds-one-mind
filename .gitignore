@@ -2,8 +2,12 @@ __pycache__/
 *.pyc
 .env
 *.sqlite3
-data/
+/data/
 *.zip
 node_modules/
 .DS_Store
 Thumbs.db
+
+# build output and local tooling
+dist/
+tools/node_modules/

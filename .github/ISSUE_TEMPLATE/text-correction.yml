@@ -1,0 +1,48 @@
+name: Text, fact or translation correction
+description: Report an error or suggest an edit in the book (English or German edition)
+title: "[correction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Please do not post personal data, client documents, passwords or keys.
+  - type: dropdown
+    id: edition
+    attributes:
+      label: Edition
+      options:
+        - English
+        - German
+    validations:
+      required: true
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter
+      description: For example "3 · Principles", "Field guide, section 6", "Glossary".
+    validations:
+      required: true
+  - type: textarea
+    id: quote
+    attributes:
+      label: Quotation
+      description: The exact sentence or line you mean.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is wrong or unclear? Factual error, logic, wording, translation?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggestion
+      description: How should it read, or what should be checked?
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: For facts - author, title, year, link, DOI or ISBN.

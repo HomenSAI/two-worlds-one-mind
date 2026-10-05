@@ -1,0 +1,14 @@
+{
+  // Markdown lint settings and why (see docs/build.md):
+  "config": {
+    "default": true,
+    "MD013": false,                                 // line length: tables and quotations are long on purpose
+    "MD033": false,                                 // inline HTML is used on purpose (centred logo, picture block)
+    "MD041": false,                                 // README starts with an HTML block (logo), not a heading
+    "MD024": { "siblings_only": true },             // the same heading may repeat under different parents
+    "MD036": false,                                 // a bold line like "Task:" is not meant as a heading
+    "MD060": false                                  // table column alignment style: not enforced
+  },
+  "globs": ["**/*.md"],
+  "ignores": ["node_modules/**", "dist/**", "tools/**"]
+}
