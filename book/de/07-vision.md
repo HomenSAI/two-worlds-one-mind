@@ -89,7 +89,7 @@ Eine Veranschaulichung, kein Zeitplan.
 | Wann | Was |
 |------|-----|
 | **Heute** | Robotische Raumfahrzeuge haben Orte erreicht, die Menschen nicht erreicht haben. Rover fahren auf dem Mars; Voyager 1, 1977 gestartet, ist seit 2012 im interstellaren Raum und steht weiterhin in Kontakt mit der Erde (NASA; geprüft am 5. Oktober 2026). |
-| **+100 Jahre** | Ein Szenario: robotische Außenposten. Roboter könnten auf dem Mond, auf dem Mars und auf Asteroiden schürfen, bauen und reparieren, lange bevor — oder anstelle — von Menschen. |
+| **+100 Jahre** | Ein Szenario: robotische Außenposten. Roboter könnten auf dem Mond, auf dem Mars und auf Asteroiden schürfen, bauen und reparieren, lange vor den Menschen — oder an ihrer Stelle. |
 | **+1.000 Jahre** | Ein Szenario: das Sonnensystem als Werkstatt. Planeten und Monde sind erreicht; Versorgungslinien laufen selbstständig, unter geprüfter Kontrolle. |
 | **+10.000 … 1 Million Jahre** | Ein Szenario: Nachbarsterne. Langsame, sich selbst vervielfältigende Sonden bauen aus lokalem Material Kopien und ziehen weiter, von Stern zu Stern. |
 | **+Millionen Jahre** | Ein Szenario: die Galaxis. Die Milchstraße misst grob 100.000 Lichtjahre im Durchmesser; veröffentlichte Schätzungen, wie schnell sich selbst vervielfältigende Sonden sie durchqueren könnten, sind spekulativ und reichen bis zu vielen Millionen Jahren. Was sich ausbreitet, ist nicht Metall — es sind Neugier und Gedächtnis des Lebens, das hier begann. |
@@ -106,7 +106,7 @@ Lernmaterialien. (Dieses Buch ist ein Beispiel; siehe [Anmerkungen](notes.md#üb
 
 Für alle, die Erste sein wollen:
 
-1. **Verbringen Sie viel Zeit mit der Weite des Blicks.** Sie ist heute die knappe Ressource, nicht die Tippgeschwindigkeit.
+1. **Investieren Sie viel Zeit in die Weite des Blicks.** Sie ist heute die knappe Ressource, nicht die Tippgeschwindigkeit.
 2. **Kennen Sie Ihre Anforderungen und Ihre Prüfungen.** Sie können nur abgeben — und prüfen —, was Sie
    definieren und verifizieren können.
 3. **Geben Sie die Routine ab, behalten Sie die Prüfung.** Schnell, aber kontrolliert.
@@ -116,8 +116,8 @@ Für alle, die Erste sein wollen:
 ## Mitmachen
 
 Wenn es solche Projekte gibt, möchte ich dabei sein. Diese Idee beschäftigt mich mein ganzes Leben. Ich
-würde gern an Raumfahrtrobotik, autonomen Systemen, Bauen außerhalb der Erde arbeiten — oder an allem, was
-sie näher bringt.
+würde gern an Raumfahrtrobotik, autonomen Systemen und dem Bauen außerhalb der Erde arbeiten — oder an
+allem, was sie näher bringt.
 
 Was ich mitbringe: Steuerungslogik für Maschinen, Projekt- und Teamführung und einen Systemblick — von der
 Idee bis zur laufenden Maschine. Robotik-Integration ist die Richtung, in die ich mich bewege, und der

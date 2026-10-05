@@ -56,7 +56,7 @@ Worten sah ein Auftrag bei EKVIPTEH so aus:
 > war, was nicht, wo die Probleme lagen. Dann wurde montiert, bezahlt, versandt, beim Kunden erneut
 > montiert, und die Inbetriebnahme wurde dort kontrolliert. Wenn es Fragen gab, wurden sie geklärt.
 
-Zu beachten, was persönlich ist und was Teamarbeit: Die obigen Schritte sind das, was **ich** getan
+Beachten Sie, was persönlich ist und was Teamarbeit: Die obigen Schritte sind das, was **ich** getan
 oder direkt kontrolliert habe; die Zeichnungen, die Fertigung, die Montage und die
 Steuerungsprogrammierung wurden von Konstrukteuren, Werkstattmitarbeitern und einem Programmierer
 erledigt.
@@ -143,7 +143,7 @@ abgeschlossenes Projekt, das dieses Buch beschreibt.
 - **Das antike Rom.** Straßen und Aquädukte ab 312 v. Chr. — gebaut mit den besten Werkzeugen ihrer Zeit.
   Ich staune, wie Menschen mit der ihnen verfügbaren Technik Dinge erreichten, die auch heute schwer zu
   erreichen sind.
-- **Chiffren.** Von Caesar bis PGP. Wie im alten Rom Briefe geschrieben wurden, die äsopische Sprache,
+- **Chiffren.** Von Caesar bis PGP. Wie im alten Rom Briefe geschrieben wurden, die äsopische Sprache der verdeckten Andeutung,
   wie Information verborgen wurde.
 
 > Caesar-Chiffre, Verschiebung −3: `LPDJLQDWLRQ` → ?

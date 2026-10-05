@@ -1,4 +1,4 @@
-# 2 · Manifest — Weiter vorstellen. Schneller bauen.
+# 2 · Manifest — Weiter denken. Schneller bauen.
 
 [Inhalt](../../README.de.md) · [English](../02-manifesto.md) · [← 1 · Drei Welten](01-three-worlds.md) · Weiter: [3 · Prinzipien →](03-principles.md)
 

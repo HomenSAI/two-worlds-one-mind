@@ -1,4 +1,4 @@
-# 5 · Labor — Nicht glauben, weil es neu ist. Testen.
+# 5 · Labor — Nicht glauben, nur weil es neu ist. Testen.
 
 [Inhalt](../../README.de.md) · [English](../05-lab.md) · [← 4 · Physische KI](04-physical-ai.md) · Weiter: [6 · Weg →](06-path.md)
 

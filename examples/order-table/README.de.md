@@ -82,7 +82,7 @@ Die Abnahmekriterien stehen in [`check_result.py`](check_result.py) und wurden v
 
 ## 5. Der Fehlschlag
 
-Versuch 1 ist absichtlich die Art schnelles Skript, die man als Erstes bekommt. Sein Ergebnis, kopiert aus
+Versuch 1 ist absichtlich ein schnelles Skript, wie man es zuerst bekommt. Sein Ergebnis, kopiert aus
 [`results/check_v1.txt`](results/check_v1.txt):
 
 ```text

@@ -24,7 +24,7 @@ Hier treffen sich zwei physische Welten:
 | Menschen, Zeitpläne, Geld | Sensoren, Kameras, Waagen |
 | Reale Grenzen: Gewicht, Wärme, Zeit, Sicherheit | Erfasste und analysierte Daten |
 
-Die Idee ist, an der Kante der neuesten Entwicklungen zu stehen — Robotersysteme, Datenerfassung und
+Die Idee ist, an der vordersten Front der neuesten Entwicklungen zu stehen — Robotersysteme, Datenerfassung und
 -analyse — und in der Praxis zu prüfen, was wirklich funktioniert.
 
 ## Der Regelkreis
@@ -48,13 +48,13 @@ Die Reihenfolge, der ich folgen würde:
 
 ```mermaid
 flowchart TB
-    R["1 · Anforderungen<br/><i>was, Grenzen, 'fertig'</i>"] --> M["2 · Modell oder Prüfstand<br/><i>keine echte Last, keine Menschen in Gefahr</i>"] --> L["3 · Begrenzter Versuch<br/><i>reduzierte Geschwindigkeit, Kraft, Umfang; Not-Aus</i>"] --> C["4 · Kontrollierter Einsatz<br/><i>Überwachung, Protokolle, Rückfall</i>"]
+    R["1 · Anforderungen<br/><i>was, Grenzen, 'fertig'</i>"] --> M["2 · Modell oder Prüfstand<br/><i>keine echte Last, keine Menschen in Gefahr</i>"] --> L["3 · Begrenzter Versuch<br/><i>reduzierte Geschwindigkeit, Kraft, Umfang; Not-Aus</i>"] --> C["4 · Kontrollierter Einsatz<br/><i>Überwachung, Protokolle, Zurücksetzen</i>"]
     M -. scheitert .-> R
     L -. scheitert .-> M
     C -. Vorfall .-> L
 ```
 
-Jede Stufe hat ihre eigenen Bestehenskriterien, und ein Scheitern schickt Sie eine Stufe zurück, nicht
+Jede Stufe hat ihre eigenen Abnahmekriterien, und ein Scheitern schickt Sie eine Stufe zurück, nicht
 vorwärts. Dies ist ein redaktioneller Entwurf einer Methode, **keine ingenieurtechnische Zertifizierung
 und keine fertige Anleitung zum Starten einer bestimmten Maschine**. Bei realer Ausrüstung kommen die
 geltenden Normen, die Herstellerunterlagen und eine qualifizierte Sicherheitsbeurteilung zuerst.
@@ -75,8 +75,8 @@ an der echten Maschine.
 Das ist keine Vorhersage und kein Verkaufsgespräch. Es ist ein praktischer Ansatz:
 
 1. **Testen Sie — in Stufen, und an einer echten Maschine erst, wenn die früheren Stufen bestanden sind.**
-2. **Messen.**
-3. **Behalten, was sich bewährt.**
+2. **Messen Sie.**
+3. **Behalten Sie, was sich bewährt.**
 
 > Die Welt beschleunigt sich. Testen, anpassen, umsetzen — nicht am Ruder eines sinkenden Bootes festhalten.
 

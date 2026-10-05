@@ -40,8 +40,8 @@ Aus [Kapitel 3 · Ungewissheit](03-principles.md#ungewissheit-mit-zweifel-beginn
 
 - [ ] Schreiben Sie die große Aufgabe in einer Zeile auf.
 - [ ] Teilen Sie sie in 3–7 Teile. Jeder Teil braucht seine eigene „Fertig“-Prüfung.
-- [ ] Teilen Sie jeden Teil weiter, bis jeder Schritt in einen Arbeitstag passt.
-- [ ] Markieren Sie die Schritte, bei denen Sie nicht wissen, wie sie gehen. Machen Sie einen davon **zuerst** — dort sitzt der Zweifel.
+- [ ] Unterteilen Sie jeden Teil weiter, bis jeder Schritt in einen Arbeitstag passt.
+- [ ] Markieren Sie die Schritte, bei denen Sie nicht wissen, wie sie sich lösen lassen. Machen Sie einen davon **zuerst** — dort sitzt der Zweifel.
 - [ ] Gehen Sie Schritt für Schritt weiter und testen Sie jeden Schritt gegen seine Prüfung.
 - [ ] Besteht ein Schritt seine Prüfung nicht, wählen Sie eines von drei Ergebnissen: **untersuchen**
       (mehr herausfinden), **Anforderungen ändern** (Umfang, Kosten, Zeit) oder **abbrechen** — und
@@ -71,7 +71,7 @@ Aus [Kapitel 5 · Methode](05-lab.md#methode-erst-fertig-wenn-geprüft).
 
 - [ ] Gibt es eine Zahl, einen Test oder eine Messung, die zeigt, dass es funktioniert?
 - [ ] Habe ich es an einem echten Fall geprüft — einer echten Maschine, einem echten Dokument, einem echten Kunden?
-- [ ] Habe ich die Ränder geprüft — Höchstlast, leere Eingabe, falsche Eingabe?
+- [ ] Habe ich die Grenzfälle geprüft — Höchstlast, leere Eingabe, falsche Eingabe?
 - [ ] Ist auch das Scheitern festgehalten, mit seiner Zahl?
 - [ ] Würde ich dieses Ergebnis mit meinem Namen unterschreiben?
 
@@ -114,7 +114,7 @@ nach außen gelangen. Prüfen Sie den gesamten Aufbau, nicht nur das Modell.
       lesen? Wie lange werden sie aufbewahrt?
 - [ ] **Synchronisation und Sicherungen:** Kopiert ein Cloud-Laufwerk, eine Notizen-App oder ein
       Sicherungsdienst die Ordner, in denen Daten, Protokolle oder Chatverlauf liegen?
-- [ ] **Entscheidung:** Schreiben Sie auf, was das Haus verlässt, falls etwas es verlässt, und ob das für
+- [ ] **Entscheidung:** Schreiben Sie auf, was Ihr Haus verlässt, falls etwas es verlässt, und ob das für
       diese Daten akzeptabel ist. Wenn Sie es nicht sagen können, behandeln Sie die Daten als
       offengelegt und verwenden Sie eine Kopie ohne die sensiblen Teile.
 
@@ -130,12 +130,12 @@ Aus [Kapitel 3 · P-03, die besten Werkzeuge — heute](03-principles.md#zu-p-03
 |-----|-----|
 | 1 | Schreiben Sie die Frage auf: *Was soll dieses Werkzeug für mich tun, und wie werde ich es messen?* |
 | 2 | Richten Sie es an einem kleinen, echten Stück Ihrer eigenen Arbeit ein. |
-| 3–4 | Lassen Sie es laufen. Messen. Notieren Sie, was gescheitert ist. |
+| 3–4 | Lassen Sie es laufen. Messen Sie. Notieren Sie, was gescheitert ist. |
 | 5 | Vergleichen Sie mit Ihrer bisherigen Arbeitsweise: Zeit, Qualität, Kosten. |
 | 6 | Entscheiden Sie: behalten, verwerfen oder mit anderem Aufbau erneut testen. |
 | 7 | Wenn Sie es behalten — schreiben Sie eine einseitige Notiz: wie, wann, mit welchen Prüfungen. |
 
-Vertrauen Sie nicht, weil es neu ist. Lehnen Sie nicht ab, weil es neu ist. Testen Sie.
+Vertrauen Sie nicht, nur weil es neu ist. Lehnen Sie nicht ab, nur weil es neu ist. Testen Sie.
 
 ## 8. Bevor KI eine Maschine beeinflusst
 
@@ -147,8 +147,8 @@ eine qualifizierte Sicherheitsbeurteilung.
       Temperatur; was „sicherer Zustand“ heißt; wer sie anhalten kann und wie.
 - [ ] **Modell oder Prüfstand:** Lassen Sie die Logik zuerst ohne echte Last und ohne Personen in der
       Nähe laufen.
-- [ ] **Begrenzter Versuch:** reduzierte Geschwindigkeit, Kraft oder Umfang; ein Hardware-Halt in
-      Reichweite; jemand, der beobachtet; schriftliche Bestehenskriterien.
+- [ ] **Begrenzter Versuch:** reduzierte Geschwindigkeit, Kraft oder Umfang; ein physischer Not-Aus in
+      Reichweite; jemand, der beobachtet; schriftliche Abnahmekriterien.
 - [ ] **Kontrollierter Einsatz:** Überwachung, Protokolle, ein Weg zurück zum früheren Verhalten.
 - [ ] Nach einer gescheiterten Stufe gehen Sie eine Stufe zurück — niemals vorwärts.
 

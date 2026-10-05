@@ -26,7 +26,7 @@ aus der heutigen Arbeit mit Robotik, Automatisierung und lokaler KI. Jedes Kapit
 Seiten; das letzte Kapitel macht aus den Ideen Checklisten. Kapitel 7 ist ein deutlich gekennzeichneter
 spekulativer Essay.
 
-**Für wen:** Ingenieurinnen und Ingenieure, Gründer und Führungskräfte, die mit Maschinen, Produktion oder
+**Für wen:** Ingenieurinnen und Ingenieure, Gründerinnen und Gründer sowie Führungskräfte, die mit Maschinen, Produktion oder
 Projekten arbeiten — und alle, die mit modernen Werkzeugen schneller arbeiten wollen, ohne die Kontrolle zu
 verlieren.
 
@@ -47,7 +47,7 @@ verlieren.
 | [README.md](README.md) · [Contents](README.md#contents) | Diese Seite · [Inhalt](#inhalt) |
 | [book/](book/00-preface.md) | [book/de/](book/de/00-preface.md) |
 
-Die deutsche Ausgabe ist eine Übersetzung des redigierten englischen Textes; ihr Prüfstand steht in
+Die deutsche Ausgabe ist eine Übersetzung des redigierten englischen Textes; ihr Prüfstatus steht in
 [docs/translation-status.md](docs/translation-status.md). Sie wurde nicht von einer unabhängigen
 muttersprachlichen Person geprüft.
 
@@ -75,10 +75,10 @@ muttersprachlichen Person geprüft.
 |---|---------|----------------|-----------------|
 | 0 | [Vorwort](book/de/00-preface.md) | Warum es dieses Buch gibt | — |
 | 1 | [Drei Welten](book/de/01-three-worlds.md) | Vorstellungskraft, Maschinen und Code führten hierher | [Startseite](https://homensai.com/) |
-| 2 | [Manifest](book/de/02-manifesto.md) | Weiter vorstellen. Schneller bauen. | [Manifest](https://homensai.com/manifesto.html) |
+| 2 | [Manifest](book/de/02-manifesto.md) | Weiter denken. Schneller bauen. | [Manifest](https://homensai.com/manifesto.html) |
 | 3 | [Prinzipien](book/de/03-principles.md) | Vom Programmieren zum philosophischen Management (Begriff des Autors) | [Konzept](https://homensai.com/concept.html) |
 | 4 | [Physische KI](book/de/04-physical-ai.md) | Testen, was KI in der physischen Welt wirklich kann | [Konzept](https://homensai.com/concept.html) |
-| 5 | [Labor](book/de/05-lab.md) | Nicht glauben, weil es neu ist. Testen. | [Labor](https://homensai.com/lab.html) |
+| 5 | [Labor](book/de/05-lab.md) | Nicht glauben, nur weil es neu ist. Testen. | [Labor](https://homensai.com/lab.html) |
 | 6 | [Weg](book/de/06-path.md) | Stahl und Silizium — immer beides | [Weg](https://homensai.com/path.html) |
 | 7 | [Vision](book/de/07-vision.md) | Leben jenseits der Erde, getragen von Maschinen (spekulativ) | [Vision](https://homensai.com/vision.html) |
 | 8 | [Praxisleitfaden](book/de/08-field-guide.md) | Die Methode als Checklisten zum Benutzen | — |

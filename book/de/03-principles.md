@@ -31,7 +31,7 @@ Zeit.
 |---|---------|-----------------|
 | P-01 | **Vorstellungskraft zuerst** | Das Schwierigste ist die Idee. Eine Idee ist ein Anfang; ob sie machbar ist, muss geprüft werden. |
 | P-02 | **Alles ist ein Konzept** | Die einzige Frage: Sind Sie bereit, es in der Praxis zu testen? |
-| P-03 | **Die besten Werkzeuge — heute** | Nutzen Sie die fortschrittlichsten Werkzeuge in Reichweite. Idee gehört — anfangen zu bauen und früh testen. |
+| P-03 | **Die besten Werkzeuge — heute** | Nutzen Sie die fortschrittlichsten Werkzeuge in Reichweite. Sobald Sie eine Idee hören: anfangen zu bauen und früh testen. |
 | P-04 | **Schnell, aber geprüft** | Setzen Sie zügig um — mit Kontrolle, Tests und ständigen Prüfungen. |
 | P-05 | **Delegieren** | Aufgabe, Termin, Ressourcen, Kontrolle. Eingreifen, wenn es wirklich darauf ankommt. |
 | P-06 | **Experimentator** | Kein Institut nötig: Neugier, Versuche, gemessene Ergebnisse. |
@@ -65,7 +65,7 @@ lerne entweder genug, um sie zu prüfen, oder ich hole jemanden, der es kann.
 ### Zu P-06 — der Experimentator
 
 Ich zähle mich zu den Experimentatoren: Menschen, die, ohne an einer Universität oder einem Institut
-zu sein, aus tiefstem Herzen alles Neue lernen und die Welt um sich herum verstehen wollen. Wenn Sie
+zu sein, aus ganzem Herzen alles Neue lernen und die Welt um sich herum verstehen wollen. Wenn Sie
 Vorstellungskraft haben und den Wunsch auszuprobieren und zu lernen — wirklich zu lernen —, müssen Sie
 sich nicht zuerst durch überholte akademische Routinen kämpfen. Nach meiner Erfahrung steigert das
 Produktivität, Ergebnisse und Qualität.
@@ -120,7 +120,7 @@ flowchart TB
     K -- ja --> Done([Fertig])
     K -- "unbekannt, Prüfung scheitert" --> R["Untersuchen oder Prototyp bauen<br/><i>mehr herausfinden</i>"] --> K
     K -- "Anforderung zu hart" --> Ch["Anforderungen ändern<br/><i>Umfang, Kosten, Zeit</i>"] --> Q
-    K -- "Grenzen nicht einzuhalten" --> Stop([Abbrechen — und den Grund festhalten])
+    K -- "Grenzen nicht einhaltbar" --> Stop([Abbrechen — und den Grund festhalten])
 ```
 
 Ungewissheit am Anfang ist kein Grund aufzugeben. Man arbeitet sie durch beharrliches Handeln und

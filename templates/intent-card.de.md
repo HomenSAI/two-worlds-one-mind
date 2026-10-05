@@ -32,7 +32,7 @@ Was weiß ich schon?
   (Daten, Zeichnungen, Beispiele, alte Projekte)
 
 Was ist unsicher?
-  (auflisten - dort fangen Sie an)
+  (auflisten — dort fangen Sie an)
 
 Wie werde ich es prüfen?
   (wer oder was prüft; was ich verstehen muss, um das Ergebnis zu beurteilen)

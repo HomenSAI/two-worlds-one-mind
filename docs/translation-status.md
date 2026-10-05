@@ -1,12 +1,14 @@
 # Translation status (English → German)
 
-Source: the edited English text of edition **1.1 (draft)**, state of 5 October 2026. The German
+Source: the edited English text of edition **1.1**, state of 5 October 2026. The German
 text was written from that English text, not from the site and not from edition 1.0.
 
 **Review status of every row:** translated with AI assistance (Claude, at the author's request);
 mechanically checked (same headings and Mermaid blocks, links and anchors inside the German files,
 no link into the English files except the language switch). **Not** reviewed by a native speaker
 and **not yet read through by the author** — nothing here claims an independent review.
+
+**Language proof-reading pass, 5 October 2026 (after the release of 1.1):** the whole German text (chapters 0–8, Glossary, Notes, README, intent card, example, EXP-001) was read through line by line by the editor (Claude) and corrected for idiom and grammar: for example the slogan of Chapter 2 (*Weiter denken. Schneller bauen.*), "Prüfstatus" instead of "Prüfstand" for the review status, "Abnahmekriterien" instead of "Bestehenskriterien", "Zurücksetzen" for rollback, consistent imperatives in lists, and the Glossary now in alphabetical order like the English one. This is an editor's pass, **not** a review by a native speaker and **not** a read-through by the author: both are still open.
 
 Conventions used: address form *Sie*; "intent card" = *Absichtskarte*; "field guide" =
 *Praxisleitfaden*; "physical AI" = *physische KI*; "mechanical systems" = *mechanische Systeme*;

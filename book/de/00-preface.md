@@ -27,7 +27,7 @@ als das gekennzeichnet, was sie sind.
 
 - **Kapitel 1–3** — der Blick: woher das kommt, das Manifest, die Prinzipien.
 - **Kapitel 4–6** — die Praxis: physische KI, das Labor, der Weg dahinter.
-- **Kapitel 7** — die Vision: wohin das alles führt, in der weitestmöglichen Perspektive. Sie ist
+- **Kapitel 7** — die Vision: wohin das alles führt, in größtmöglicher Perspektive. Sie ist
   spekulativ und sagt das auch.
 - **Kapitel 8** — der Praxisleitfaden: dieselben Ideen als Checklisten für Ihre eigene Arbeit, mit
   einem [durchgerechneten Beispiel](../../examples/order-table/README.de.md) und einer
