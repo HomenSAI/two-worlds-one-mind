@@ -120,6 +120,11 @@ This is the version DOI of edition 1.1 (English and German, PDF and HTML, archiv
 The DOI that always leads to the latest version of the book is 10.5281/zenodo.23160030. The
 release page with the same files: <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1>.
 
+Zenodo holds a second record for each release: a **Software** record (version DOI of 1.1:
+10.5281/zenodo.23159950; all versions: 10.5281/zenodo.23159949), made automatically from the GitHub release.
+It is the archive of the sources (Markdown, build scripts), not the book. **Cite the book DOI above**; the
+Software DOI is for the source files. The two records are linked to each other in Zenodo (*Related works*).
+
 The published first edition: Khomenko, S. (2026). *Two Worlds. One Mind. …* Edition 1.0.
 <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.0>
 

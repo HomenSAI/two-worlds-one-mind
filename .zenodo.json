@@ -1,0 +1,19 @@
+{
+  "_comment": "Metadata for the Zenodo software record that the GitHub integration creates for each release (the source archive). The book itself has its own record, see docs/citation.md.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Khomenko, Serhii",
+      "orcid": "0009-0009-5371-9717"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "10.5281/zenodo.23160030",
+      "resource_type": "publication-book",
+      "scheme": "doi"
+    }
+  ]
+}

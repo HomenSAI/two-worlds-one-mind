@@ -12,6 +12,11 @@ the site is in [docs/provenance.md](docs/provenance.md).
 
 ## Unreleased
 
+- Two Zenodo records of edition 1.1 are now explained and linked: the book (the one to cite) and the
+  Software record of the GitHub release (sources, 10.5281/zenodo.23159950). On the Software record the
+  author is now Khomenko, Serhii (ORCID) instead of the account name, and both records point to each
+  other. `.zenodo.json` gives later releases the same author and the link to the book.
+
 - The whole book, edition 1.1, is archived on Zenodo as its own record: version DOI
   [10.5281/zenodo.23160031](https://doi.org/10.5281/zenodo.23160031), concept DOI 10.5281/zenodo.23160030 (files: PDF and HTML in English and German,
   `SHA256SUMS`, `manifest.json`, source archive of tag `v1.1`). README, `CITATION.bib`, Notes (EN/DE),
