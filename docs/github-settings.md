@@ -1,8 +1,8 @@
 # GitHub settings: prepared values and instructions
 
-Status: **prepared, not applied.** Changing repository settings is an administrative action for the
-owner (account HomenSAI). Nothing here was changed on GitHub by the editor; the state below was read
-from the public API on 5 October 2026.
+Status: **section 1 applied on 5 October 2026** (Description, Website and the seven Topics were entered in the
+repository's About panel, in the owner's signed-in browser session, and checked on the repository page); the
+rest is prepared, not applied. Rulesets (section 2) are still open.
 
 ## 1. About (Description, Website, Topics)
 
@@ -12,7 +12,7 @@ from the public API on 5 October 2026.
 | Website | `https://homensai.com/` (the author's site; the author decided on 5 October 2026 that the main reading page will be a page on homensai.com, which does not exist yet — see author question 13) |
 | Topics | `systems-engineering`, `physical-ai`, `robotics`, `automation`, `technical-writing`, `handbook`, `local-ai` |
 
-Current state: Website empty, no topics.
+Current state (5 October 2026, after saving): Description, Website and the seven topics are set as in the table.
 
 ## 2. Protection of `main` and of published tags
 
