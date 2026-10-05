@@ -7,14 +7,18 @@ guarantee of long-term preservation; see the [README](README.md#versions).
 Numbering: `1.1, 1.2 …` — edits, new sections, corrections; `2.0` — a new edition (new structure or
 a large new part).
 
-**Last published release: [1.0](#10--2026-10-03). The working branch is the draft of 1.1
-([Unreleased](#unreleased--edition-11-draft)).** Which edition was written from which version of
+**Last published release: [1.1](#11--2026-10-05).** Which edition was written from which version of
 the site is in [docs/provenance.md](docs/provenance.md).
 
-## Unreleased — edition 1.1 (draft)
+## Unreleased
 
-Status: draft / unreleased. No tag, release or archive record exists for 1.1 yet. The changes
-follow the audit of 5 October 2026; each finding and what was done about it is in
+Nothing yet.
+
+## [1.1] — 2026-10-05
+
+Git tag `v1.1`, GitHub release with the PDF and HTML files (English and German), `SHA256SUMS` and
+`manifest.json`. No archive record (DOI) exists for the whole book yet. The changes follow the
+audit of 5 October 2026; each finding and what was done about it is in
 [docs/audit-resolution.md](docs/audit-resolution.md).
 
 ### Metadata made after v1.0 (already on `main` before this edition)

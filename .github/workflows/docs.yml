@@ -16,6 +16,8 @@ concurrency:
 
 env:
   IMAGE: two-worlds-one-mind-build:1
+  # main carries published editions; a draft branch for the next edition sets this back to draft
+  RELEASE_STATE: released
 
 jobs:
   checks:

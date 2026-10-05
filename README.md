@@ -50,16 +50,17 @@ The German edition is a translation of the edited English text; its review statu
 - **Read online:** the chapters below, rendered by GitHub.
 - **Complete book as one PDF / one self-contained HTML file** (English and German): built by the
   [docs workflow](.github/workflows/docs.yml) or locally with `./scripts/build.sh` (see
-  [docs/build.md](docs/build.md)). Until a release is published, the files are available as
-  workflow artifacts (Actions → *docs* → a run → Artifacts), not as release downloads.
+  [docs/build.md](docs/build.md)). The files of edition 1.1 (PDF and HTML, English and German,
+  with `SHA256SUMS` and `manifest.json`) are attached to the
+  [release v1.1](https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1).
 - **Source:** this repository (Markdown and SVG).
 
 ## Status of this version
 
 | | |
 |---|---|
-| Last published release | [**v1.0**](https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.0), 3 October 2026 (unchanged) |
-| This branch | **edition 1.1 — draft, unreleased**: edited text, German edition, examples, build and checks |
+| Last published release | [**v1.1**](https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1), 5 October 2026 · earlier: [v1.0](https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.0), 3 October 2026 (unchanged) |
+| This branch | `main` is the state of 1.1; later changes are listed under *Unreleased* in the changelog |
 | What changed | [CHANGELOG.md](CHANGELOG.md) · how each audit finding was handled: [docs/audit-resolution.md](docs/audit-resolution.md) |
 | Which site version the text is based on | [docs/provenance.md](docs/provenance.md) — the book is **not** kept in sync with homensai.com automatically |
 
@@ -108,11 +109,11 @@ robotics, automation and local AI.
 The book and the Vision essay are **two separate works** with separate records. The machine-readable
 records are in [CITATION.bib](CITATION.bib).
 
-**The book (edition 1.1 is a draft; until a release exists, cite the repository and the edition):**
+**The book (edition 1.1):**
 
 > Khomenko, S. (2026). *Two Worlds. One Mind. From code to intent: a short handbook on building
-> where software meets the physical world.* Edition 1.1 (draft, unreleased). Self-published.
-> <https://github.com/HomenSAI/two-worlds-one-mind>
+> where software meets the physical world.* Edition 1.1. Self-published.
+> <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1>
 
 The published first edition: Khomenko, S. (2026). *Two Worlds. One Mind. …* Edition 1.0.
 <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.0>

@@ -1,7 +1,7 @@
 # Release checklist for edition 1.1
 
-Status: **prepared, not executed.** The edition is a draft until every step below is done. Merging
-to `main`, publishing the release and any archive record need the owner's approval.
+Status: **executed on 5 October 2026** by the owner's instruction (merge, release commit, tag `v1.1`,
+release). Steps after the release (archive record, settings, site page) are still open.
 
 ## Before the merge
 

@@ -55,16 +55,16 @@ muttersprachlichen Person geprüft.
 - **Online lesen:** die Kapitel unten, von GitHub dargestellt.
 - **Das ganze Buch als eine PDF-Datei / eine eigenständige HTML-Datei** (Englisch und Deutsch): erstellt vom
   [docs-Workflow](.github/workflows/docs.yml) oder lokal mit `./scripts/build.sh` (siehe
-  [docs/build.md](docs/build.md)). Bis ein Release veröffentlicht ist, gibt es die Dateien als
-  Workflow-Artefakte (Actions → *docs* → ein Lauf → Artifacts), nicht als Release-Downloads.
+  [docs/build.md](docs/build.md)). Die Dateien der Ausgabe 1.1 (PDF und HTML, Englisch und Deutsch, mit
+  `SHA256SUMS` und `manifest.json`) hängen am [Release v1.1](https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1).
 - **Quellen:** dieses Repository (Markdown und SVG).
 
 ## Stand dieser Version
 
 | | |
 |---|---|
-| Letztes veröffentlichtes Release | [**v1.0**](https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.0), 3. Oktober 2026 (unverändert) |
-| Dieser Zweig | **Ausgabe 1.1 — Entwurf, unveröffentlicht**: redigierter Text, deutsche Ausgabe, Beispiele, Build und Prüfungen |
+| Letztes veröffentlichtes Release | [**v1.1**](https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1), 5. Oktober 2026 · früher: [v1.0](https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.0), 3. Oktober 2026 (unverändert) |
+| Dieser Zweig | `main` ist der Stand von 1.1; spätere Änderungen stehen im Changelog unter *Unreleased* |
 | Was sich geändert hat | [CHANGELOG.md](CHANGELOG.md) · wie jede Feststellung der Prüfung behandelt wurde: [docs/audit-resolution.md](docs/audit-resolution.md) (englisch) |
 | Auf welcher Website-Version der Text beruht | [docs/provenance.md](docs/provenance.md) — das Buch wird **nicht** automatisch mit homensai.com abgeglichen |
 
@@ -113,11 +113,11 @@ Automatisierung und lokale KI.
 Das Buch und der Vision-Essay sind **zwei getrennte Werke** mit getrennten Einträgen. Die
 maschinenlesbaren Einträge stehen in [CITATION.bib](CITATION.bib).
 
-**Das Buch (Ausgabe 1.1 ist ein Entwurf; solange es kein Release gibt, zitieren Sie das Repository und die Ausgabe):**
+**Das Buch (Ausgabe 1.1):**
 
 > Khomenko, S. (2026). *Two Worlds. One Mind. From code to intent: a short handbook on building where
-> software meets the physical world* (deutsche Ausgabe: *Zwei Welten. Ein Geist.*). Ausgabe 1.1 (Entwurf,
-> unveröffentlicht). Selbstverlag. <https://github.com/HomenSAI/two-worlds-one-mind>
+> software meets the physical world* (deutsche Ausgabe: *Zwei Welten. Ein Geist.*). Ausgabe 1.1.
+> Selbstverlag. <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.1>
 
 Die veröffentlichte erste Ausgabe: Khomenko, S. (2026). *Two Worlds. One Mind. …* Ausgabe 1.0.
 <https://github.com/HomenSAI/two-worlds-one-mind/releases/tag/v1.0>

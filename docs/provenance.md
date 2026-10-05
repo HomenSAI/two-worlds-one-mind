@@ -7,8 +7,8 @@ automatically**. Do not read a row as "the book matches the current site".
 |---------|------------|----------------------------------------|----------|----------------|
 | 1.0 (published 2026-10-03) | tag `v1.0` → `8435e7f0131e78e4a8f5eed9a077470259f08740` | the author's dictated texts (Sept–Oct 2026) and homensai.com **site version 2.11** (as stated in the v1.0 notes) | English | none for the book; GitHub release `v1.0` and source archives only |
 | 1.0 + metadata fixes (on `main`) | `7c05fe254acb22f3547528524ed97e92be81854d` | same as 1.0 (the book text was not changed) | English | none |
-| 1.1 (draft, unreleased) | the head of branch `edition-1.1-draft`; the final commit and tag are filled in at release | the text of 1.0, edited after the audit of 5 October 2026; **the site was not re-compared** | English (source of the German edition) | none yet |
-| 1.1 German (draft, unreleased) | same commit as the English 1.1 | translation of the English 1.1 text, no new site material | German | none yet |
+| 1.1 (published 2026-10-05) | tag `v1.1` (the commit is shown on the release page) | the text of 1.0, edited after the audit of 5 October 2026; **the site was not re-compared** | English (source of the German edition) | none yet |
+| 1.1 German (published 2026-10-05) | same tag as the English 1.1 | translation of the English 1.1 text, no new site material | German | none yet |
 
 ## Notes
 
