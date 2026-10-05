@@ -32,17 +32,25 @@ is the same).
 ```text
 INTENT CARD
 -----------
-What do I want?            A table with one row per order file: order number, year, amount, currency.
-Why?                       The colleague can sort and sum the orders without opening 12 files.
-For whom?                  A colleague who will use the numbers in a report.
-What does "done" look like?   check_result.py reports PASS: every file once; every cell equal to the
-                              answer key; no guessed values; the sum of confirmed EUR amounts matches.
-What must NOT happen?      A wrong number that looks right. A silent guess. Converting currencies.
-What do I already know?    The files are text. Labels vary ("Total", "Gesamtbetrag"). Number formats
-                           differ between files (12,450.00 and 8.900,50 and 3 200).
-What is uncertain?         Which formats really occur; what to do when a number can be read two ways.
-How will I check it?       By an answer key made by hand from the 12 files (expected.csv) and a
-                           script that compares the table with it. I can read all 12 files myself.
+What do I want?
+  A table with one row per order file: order number, year, amount, currency.
+Why?
+  The colleague can sort and sum the orders without opening 12 files.
+For whom?
+  A colleague who will use the numbers in a report.
+What does "done" look like?
+  check_result.py reports PASS: every file once; every cell equal to the
+  answer key; no guessed values; the sum of confirmed EUR amounts matches.
+What must NOT happen?
+  A wrong number that looks right. A silent guess. Converting currencies.
+What do I already know?
+  The files are text. Labels vary ("Total", "Gesamtbetrag"). Number formats
+  differ between files (12,450.00 and 8.900,50 and 3 200).
+What is uncertain?
+  Which formats really occur; what to do when a number can be read two ways.
+How will I check it?
+  By an answer key made by hand from the 12 files (expected.csv) and a
+  script that compares the table with it. I can read all 12 files myself.
 ```
 
 ## 3. Constraints and the definition of done

@@ -20,8 +20,8 @@ Why?
 For whom?
 
 What does "done" look like?
-  (a measurable check: a weight, a time, a number, a test. If you cannot write it, you are not
-  ready to delegate.)
+  (a measurable check: a weight, a time, a number, a test.
+  If you cannot write it, you are not ready to delegate.)
 
 What must NOT happen?
   (safety, money, data, deadline)
@@ -35,7 +35,8 @@ What is uncertain?
 How will I check it?
   (who or what verifies; what I need to understand to judge the result)
 
-If a step fails its check, I will:  [ ] research   [ ] change the requirements   [ ] stop
+If a step fails its check, I will:
+  [ ] research   [ ] change the requirements   [ ] stop
   (write down why)
 ```
 

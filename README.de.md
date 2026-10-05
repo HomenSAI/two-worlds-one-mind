@@ -106,7 +106,7 @@ Automatisierung und lokale KI.
 
 - Website: <https://homensai.com/>
 - ORCID: <https://orcid.org/0009-0009-5371-9717>
-- Kontakt: info@homensai.com
+- Kontakt: <info@homensai.com>
 
 ## So zitieren Sie
 

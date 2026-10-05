@@ -101,7 +101,7 @@ robotics, automation and local AI.
 
 - Site: <https://homensai.com/>
 - ORCID: <https://orcid.org/0009-0009-5371-9717>
-- Contact: info@homensai.com
+- Contact: <info@homensai.com>
 
 ## How to cite
 

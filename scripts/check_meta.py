@@ -18,8 +18,9 @@ import sys
 from pathlib import Path
 
 import bibtexparser
+import yaml
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ.get("BOOK_ROOT") or Path(__file__).resolve().parents[1]).resolve()
 errors = []
 
 
@@ -88,6 +89,29 @@ def main():
         t = p.read_text(encoding="utf-8")
         if re.search(r"\]\(CITATION\.cff\)|\(\.\./CITATION\.cff\)", t):
             err(f"{p.relative_to(ROOT)}: links to the removed CITATION.cff")
+    form = ROOT / ".github" / "ISSUE_TEMPLATE" / "text-correction.yml"          # M9 issue form
+    try:
+        y = yaml.safe_load(form.read_text(encoding="utf-8"))
+        ids = [b.get("id") for b in y["body"] if b.get("id")]
+        if not (y.get("name") and y.get("description") and y.get("body")) or len(ids) != len(set(ids)):
+            err("issue form: name, description, body required and ids unique")
+        for need in ("chapter", "quote", "problem", "suggestion", "source"):
+            if need not in ids:
+                err(f"issue form: field {need} missing")
+    except Exception as e:  # noqa: BLE001
+        err(f"issue form is not valid YAML: {e}")
+    for p in sorted((ROOT / ".github" / "workflows").glob("*.yml")):                # M10 workflows
+        try:
+            w = yaml.safe_load(p.read_text(encoding="utf-8"))
+            if w.get("permissions") != {"contents": "read"}:
+                err(f"{p.name}: top-level permissions must be exactly contents: read")
+            for job in w["jobs"].values():
+                for step in job["steps"]:
+                    u = step.get("uses", "")
+                    if u and not re.search(r"@[0-9a-f]{40}\b", u):
+                        err(f"{p.name}: action not pinned to a commit SHA: {u}")
+        except Exception as e:  # noqa: BLE001
+            err(f"{p.name}: not valid workflow YAML: {e}")
     if errors:
         print("\n".join(errors))
         print(f"META: FAIL ({len(errors)} problem(s))")

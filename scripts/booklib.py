@@ -1,10 +1,11 @@
 """Shared helpers for building and checking the book (standard library + markdown-it-py)."""
+import os
 import re
 from pathlib import Path
 
 from markdown_it import MarkdownIt
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(os.environ.get("BOOK_ROOT") or Path(__file__).resolve().parents[1]).resolve()
 REPO_URL = "https://github.com/HomenSAI/two-worlds-one-mind"
 
 CHAPTER_NAMES = [

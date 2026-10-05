@@ -21,8 +21,9 @@ Warum?
 Für wen?
 
 Wie sieht „fertig“ aus?
-  (eine messbare Prüfung: ein Gewicht, eine Zeit, eine Zahl, ein Test. Wenn Sie sie nicht aufschreiben
-  können, sind Sie noch nicht bereit zu delegieren.)
+  (eine messbare Prüfung: ein Gewicht, eine Zeit, eine Zahl, ein Test.
+  Wenn Sie sie nicht aufschreiben können, sind Sie noch nicht bereit
+  zu delegieren.)
 
 Was darf NICHT passieren?
   (Sicherheit, Geld, Daten, Termin)
@@ -36,7 +37,8 @@ Was ist unsicher?
 Wie werde ich es prüfen?
   (wer oder was prüft; was ich verstehen muss, um das Ergebnis zu beurteilen)
 
-Besteht ein Schritt seine Prüfung nicht, werde ich:  [ ] untersuchen   [ ] Anforderungen ändern   [ ] abbrechen
+Besteht ein Schritt seine Prüfung nicht, werde ich:
+  [ ] untersuchen   [ ] Anforderungen ändern   [ ] abbrechen
   (Grund aufschreiben)
 ```
 

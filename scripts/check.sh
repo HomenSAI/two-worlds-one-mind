@@ -11,7 +11,9 @@ rc=0
 run() { echo "== $*"; "$@" || rc=1; }
 run python3 scripts/check_meta.py
 run python3 scripts/check_links.py
+run python3 scripts/check_text.py
 run python3 scripts/check_svg.py
+run python3 scripts/selftest.py
 run python3 scripts/mermaid_render.py
 run python3 examples/order-table/run_example.py
 run markdownlint-cli2 "**/*.md" "#node_modules" "#dist" "#tools"

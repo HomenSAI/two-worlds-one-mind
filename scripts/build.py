@@ -55,7 +55,7 @@ pre { background:var(--soft); border:1px solid var(--line); padding:.7rem .9rem;
 pre code { background:none; padding:0; }
 .table-wrap { overflow-x:auto; margin:1rem 0; }
 table { border-collapse:collapse; width:100%; font-size:.92em; }
-th, td { border:1px solid var(--line); padding:.35rem .5rem; vertical-align:top; text-align:left; overflow-wrap:anywhere; }
+th, td { border:1px solid var(--line); padding:.35rem .5rem; vertical-align:top; text-align:left; overflow-wrap:break-word; }
 th { background:var(--soft); }
 figure.diagram { margin:1.2rem 0; text-align:center; }
 figure.diagram svg { max-width:100%; height:auto; }
@@ -66,6 +66,8 @@ hr { border:0; border-top:1px solid var(--line); margin:1.5rem 0; }
 .titlepage h1 { border:0; font-size:2.6rem; margin:1rem 0 .3rem; }
 .titlepage .sub { font-size:1.15rem; color:var(--muted); margin:0 0 1.2rem; }
 .titlepage .meta { font-size:.9rem; color:var(--muted); }
+td.nw { white-space:nowrap; }
+li.task { list-style:none; padding-left:1.4em; text-indent:-1.4em; }
 nav.toc ol { list-style:none; padding-left:0; }
 nav.toc ol ol { padding-left:1.2rem; font-size:.92em; }
 nav.toc li { margin:.15rem 0; }
@@ -117,6 +119,7 @@ class Doc:
         if not href or is_external(href):
             return href
         path_part, _, frag = href.partition("#")
+        frag = unquote(frag)
         if path_part == "":
             return f"#{self.cur_key}-{frag}" if frag else "#"
         target = (src_path.parent / unquote(path_part)).resolve()
@@ -174,6 +177,9 @@ class Doc:
                 self.diagrams += 1
             i += 1
         body = self.md.renderer.render(tokens, self.md.options, {})
+        body = re.sub(r"<thead>\s*<tr>\s*(<th[^>]*></th>\s*)+</tr>\s*</thead>\s*", "", body)  # tables with an empty header row
+        body = body.replace("<li>[ ] ", '<li class="task">☐ ')
+        body = re.sub(r"<td>([^<\s]{1,12})</td>", r'<td class="nw">\1</td>', body)  # short IDs such as P-01 stay on one line
         body = re.sub(r"<table>", '<div class="table-wrap"><table>', body)
         body = body.replace("</table>", "</table></div>")
         self.toc.append((key, title, h2, kind))

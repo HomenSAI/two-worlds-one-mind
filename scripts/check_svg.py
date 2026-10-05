@@ -29,7 +29,7 @@ def main():
             errors.append(f"{rel}: root element is not svg")
         if "viewBox" not in root.attrib:
             errors.append(f"{rel}: no viewBox")
-        if not (root.attrib.get("aria-label") or root.find(SVG_NS + "title") is not None):
+        if not (root.attrib.get("aria-label") or root.attrib.get("aria-hidden") == "true" or root.find(SVG_NS + "title") is not None):
             errors.append(f"{rel}: no accessible name (aria-label or title)")
         for el in root.iter():
             tag = el.tag.replace(SVG_NS, "")

@@ -17,7 +17,8 @@ RUN apt-get update \
 WORKDIR /opt/tools
 COPY tools/requirements.txt tools/package.json tools/package-lock.json ./
 RUN pip3 install --break-system-packages --no-cache-dir -r requirements.txt \
- && npm ci --no-audit --no-fund
+ && npm install -g npm@10.9.3 \
+ && npm ci --legacy-peer-deps --no-audit --no-fund
 
 ENV NODE_PATH=/opt/tools/node_modules \
     PATH=/opt/tools/node_modules/.bin:$PATH

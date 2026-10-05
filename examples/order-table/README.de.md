@@ -33,17 +33,25 @@ KI-Assistenten — die Methode ist dieselbe).
 ```text
 ABSICHTSKARTE
 -------------
-Was will ich?                  Eine Tabelle mit einer Zeile pro Auftragsdatei: Auftragsnummer, Jahr, Betrag, Währung.
-Warum?                         Der Kollege kann die Aufträge sortieren und summieren, ohne 12 Dateien zu öffnen.
-Für wen?                       Einen Kollegen, der die Zahlen in einem Bericht verwendet.
-Wie sieht „fertig“ aus?        check_result.py meldet PASS: jede Datei einmal; jede Zelle gleich dem Lösungsschlüssel;
-                               keine geratenen Werte; die Summe der bestätigten EUR-Beträge stimmt.
-Was darf NICHT passieren?      Eine falsche Zahl, die richtig aussieht. Ein stilles Raten. Währungen umrechnen.
-Was weiß ich schon?            Die Dateien sind Text. Bezeichnungen wechseln („Total“, „Gesamtbetrag“). Zahlenformate
-                               unterscheiden sich zwischen den Dateien (12,450.00 und 8.900,50 und 3 200).
-Was ist unsicher?              Welche Formate wirklich vorkommen; was zu tun ist, wenn eine Zahl zwei Lesarten hat.
-Wie werde ich es prüfen?       Mit einem von Hand aus den 12 Dateien erstellten Lösungsschlüssel (expected.csv) und
-                               einem Skript, das die Tabelle damit vergleicht. Ich kann alle 12 Dateien selbst lesen.
+Was will ich?
+  Eine Tabelle mit einer Zeile pro Auftragsdatei: Auftragsnummer, Jahr, Betrag, Währung.
+Warum?
+  Der Kollege kann die Aufträge sortieren und summieren, ohne 12 Dateien zu öffnen.
+Für wen?
+  Einen Kollegen, der die Zahlen in einem Bericht verwendet.
+Wie sieht „fertig“ aus?
+  check_result.py meldet PASS: jede Datei einmal; jede Zelle gleich dem Lösungsschlüssel;
+  keine geratenen Werte; die Summe der bestätigten EUR-Beträge stimmt.
+Was darf NICHT passieren?
+  Eine falsche Zahl, die richtig aussieht. Ein stilles Raten. Währungen umrechnen.
+Was weiß ich schon?
+  Die Dateien sind Text. Bezeichnungen wechseln („Total“, „Gesamtbetrag“). Zahlenformate
+  unterscheiden sich zwischen den Dateien (12,450.00 und 8.900,50 und 3 200).
+Was ist unsicher?
+  Welche Formate wirklich vorkommen; was zu tun ist, wenn eine Zahl zwei Lesarten hat.
+Wie werde ich es prüfen?
+  Mit einem von Hand aus den 12 Dateien erstellten Lösungsschlüssel (expected.csv) und
+  einem Skript, das die Tabelle damit vergleicht. Ich kann alle 12 Dateien selbst lesen.
 ```
 
 ## 3. Randbedingungen und Definition von „fertig“

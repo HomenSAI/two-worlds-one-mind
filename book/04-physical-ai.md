@@ -46,7 +46,7 @@ The first test of an AI-influenced machine should not be on the running machine.
 would follow:
 
 ```mermaid
-flowchart LR
+flowchart TB
     R["1 · Requirements<br/><i>what, limits, 'done'</i>"] --> M["2 · Model or test bench<br/><i>no real load, no people at risk</i>"] --> L["3 · Limited trial<br/><i>reduced speed, force, scope; stop button</i>"] --> C["4 · Controlled use<br/><i>monitoring, logs, rollback</i>"]
     M -. fails .-> R
     L -. fails .-> M

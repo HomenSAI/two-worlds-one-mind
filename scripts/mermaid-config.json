@@ -2,5 +2,5 @@
   "theme": "neutral",
   "securityLevel": "strict",
   "fontFamily": "Liberation Sans, DejaVu Sans, Arial, sans-serif",
-  "flowchart": { "useMaxWidth": true, "htmlLabels": true, "curve": "basis" }
+  "flowchart": { "useMaxWidth": true, "htmlLabels": true, "curve": "basis", "nodeSpacing": 24, "rankSpacing": 36 }
 }

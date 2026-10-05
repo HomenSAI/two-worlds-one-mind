@@ -47,7 +47,7 @@ Der erste Test einer von KI beeinflussten Maschine sollte nicht an der laufenden
 Die Reihenfolge, der ich folgen würde:
 
 ```mermaid
-flowchart LR
+flowchart TB
     R["1 · Anforderungen<br/><i>was, Grenzen, 'fertig'</i>"] --> M["2 · Modell oder Prüfstand<br/><i>keine echte Last, keine Menschen in Gefahr</i>"] --> L["3 · Begrenzter Versuch<br/><i>reduzierte Geschwindigkeit, Kraft, Umfang; Not-Aus</i>"] --> C["4 · Kontrollierter Einsatz<br/><i>Überwachung, Protokolle, Rückfall</i>"]
     M -. scheitert .-> R
     L -. scheitert .-> M

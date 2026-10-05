@@ -80,7 +80,7 @@ def main():
             if frag and target.suffix == ".md":                                  # L2
                 if unquote(frag) not in anchors(target):
                     err(src, f"missing anchor: {href}")
-            if kind == "link" and target.is_file() and target.suffix == ".md":   # L3
+            if kind == "link" and target.is_file() and target.suffix == ".md" and (rel in en_with_de or rel in de_to_en):   # L3
                 tl = lang_of(target_rel)
                 if tl != src_lang and target_rel in (en_with_de | set(de_to_en)):
                     switch = label.strip().lower().startswith(("deutsch", "english")) or "README.de.md" in label or "book/de/" in label or "Inhalt" in label or label.strip().lower().startswith("this page")
@@ -90,7 +90,7 @@ def main():
                     err(src, f"German file links to the English version: {href}")
             # L5 semantic checks
             if kind == "link" and target.is_file():
-                m = re.search(r"(?:Chapter|Kapitel)\s+(\d)", label)
+                m = re.search(r"(?:Chapter|Kapitel)\s+(\d)", label)
                 if m and target_rel.startswith("book/"):
                     if not Path(target_rel).name.startswith("0" + m.group(1) + "-"):
                         err(src, f"link text says chapter {m.group(1)} but points to {target_rel}")
@@ -136,7 +136,7 @@ def main():
             nxt = chapters[i + 1]
             targets = []
             for kind, href, label in iter_links(src.read_text(encoding="utf-8")):
-                if href and not is_external(href):
+                if href and not is_external(href) and not label.strip().lower().startswith("english"):
                     p = (src.parent / unquote(href.partition("#")[0])).resolve()
                     targets.append(p.relative_to(ROOT).as_posix() if str(p).startswith(str(ROOT)) else "")
             if nxt not in targets:
