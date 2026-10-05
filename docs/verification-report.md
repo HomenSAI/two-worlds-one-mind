@@ -65,14 +65,13 @@ Zenodo API (record 23119816: title, DOIs, files, licence; no record for the book
 tags, default branch, topics, licence detection, commits' linked accounts), NASA pages (Mars delay 3 to
 22 minutes, Voyager 1 dates, one light-day on 18 November 2026), the Falls 2018 article and the
 bibliographic records of the 2017/2019/2023 "Homo roboticus" books, the Einstein interview (date and
-title), the CC BY 4.0 legal text (identical to the copy in `LICENSE`). `check_external_links.py` (classes
-OK / BROKEN / RATE_LIMITED / FORBIDDEN / SERVER_ERROR / TIMEOUT) exists but has not been run over all the
-links of this edition.
+title), the CC BY 4.0 legal text (identical to the copy in `LICENSE`). `check_external_links.py` was run by hand over all 23 unique external URLs of the Markdown files: 22 OK, 1 FORBIDDEN (the DOI link of the Falls article: the publisher refuses automatic access with HTTP 403; the DOI itself was confirmed in a web search), no broken link.
 
 ## Not verified, and why
 
-- The GitHub workflows have **not run on GitHub**: the repository holds the YAML only; the identical commands
-  ran locally in the same image.
+- The *docs* workflow ran on GitHub: the first run failed (shell scripts not executable, fixed in commit
+  `f6286cd`), the second run is green in both jobs and produced the preview artifact. The *external-links* and
+  *release-draft* workflows have not been run.
 - GitHub's recognition of `LICENSE`, the issue form's rendering, branch protection and the Release page can
   only be seen on GitHub after the merge, and the settings need the owner's account.
 - The German text has not been reviewed by a native speaker or by the author; the check is structural.
