@@ -9,7 +9,7 @@ from the public API on 5 October 2026.
 | Field | Value to enter |
 |-------|----------------|
 | Description | `A short handbook on systems thinking, AI-assisted work and the intersection of machines and software, with practical checklists and a clearly marked speculative essay. English and German.` |
-| Website | `https://homensai.com/` (the author's site; there is no separate book page yet — see author question 13) |
+| Website | `https://homensai.com/` (the author's site; the author decided on 5 October 2026 that the main reading page will be a page on homensai.com, which does not exist yet — see author question 13) |
 | Topics | `systems-engineering`, `physical-ai`, `robotics`, `automation`, `technical-writing`, `handbook`, `local-ai` |
 
 Current state: Website empty, no topics.
@@ -55,8 +55,10 @@ For the commits to show as made by HomenSAI, one of these is needed from the own
 2. use the noreply address shown in Settings → Emails as the commit email.
 
 The editor used the name Serhii Khomenko and `info@homensai.com` for the commits of this edition,
-by instruction, without touching the global Git configuration. Whether the first option is already
-done was not visible to the editor. Old history is not rewritten. The AI co-author line is kept on
+by instruction, without touching the global Git configuration. The owner confirmed on 5 October 2026 that
+`info@homensai.com` is added and verified in Settings → Emails (the first option); the setting that
+blocks pushes exposing a private e-mail was switched off by the owner. Whether the first commit
+shows as linked to HomenSAI is checked after the push. Old history is not rewritten. The AI co-author line is kept on
 purpose; AI involvement is also stated in the Notes. One older commit contains a personal e-mail
 address; removing it from published history is a separate, optional task with side effects
 (rewriting history) and is not part of this edition.

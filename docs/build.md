@@ -68,4 +68,4 @@ None of these replaces reading the pages: the PDFs and the HTML were also inspec
 
 ## Licence of the build tools
 
-The scripts are not part of the CC BY text. See [LICENSING.md](../LICENSING.md): no licence chosen yet; MIT is proposed.
+The scripts are not part of the CC BY text. See [LICENSING.md](../LICENSING.md): MIT licence, decided by the author on 5 October 2026 ([LICENSE-CODE](../LICENSE-CODE)).

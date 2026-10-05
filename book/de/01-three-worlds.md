@@ -34,7 +34,7 @@ begann; einige überschneiden sich):
 |-------|-----|
 | 1993–1998 | Systemtechnik an der Universität; erste Schritte mit KI, in Lisp |
 | 1997–1998 | Public-Key-Kryptografie (PGP); verteiltes Schlüsselknacken |
-| ab 2002 | 3D-Modellierung von Anlagen — erste Nutzung, wie ich sie datiere; der Wechsel eines ganzen Unternehmens zu 3D kam später, siehe [Kapitel 6](06-path.md) |
+| ab 2004 | Computergestütztes Konstruieren — ich führte 2D-AutoCAD im Unternehmen ein (ich war nicht der Konstrukteur); 3D mit SolidWorks kam 2010, siehe [Kapitel 6](06-path.md#wann-3d-kam) |
 | ab 2018 | GPU-Rigs, Kryptowährung |
 | ab 2023 | KI als alltägliches Arbeitswerkzeug; lokales KI-Labor |
 

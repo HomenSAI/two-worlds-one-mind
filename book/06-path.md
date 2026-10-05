@@ -7,7 +7,7 @@
 
 ---
 
-Diplom-Systemingenieur. Twenty years designing machines, production lines and the logic that runs
+Diplom-Systemingenieur. Twenty years building machines, production lines and the logic that runs
 them. Today — where software meets the physical world.
 
 ## Two worlds, one path
@@ -17,9 +17,10 @@ them. Today — where software meets the physical world.
 | 1980s | Imagination | Science fiction: robots, new worlds, civilisations. |
 | 1993 | Digital | Systems engineering at university · first AI in Lisp. |
 | 1997 | Digital | PGP · distributed key cracking. |
-| 2002 | Physical | **UViS Technologii** · member of the founding team, employed · engineering, sales and project control · the team grew from 3 to about 35 people. |
-| 2008 | Physical | **EKVIPTEH** · co-founder and director · team of up to about 26 · custom machines · 1,000+ projects · exports to 7 countries. |
-| 2010–2011 | Both | At EKVIPTEH, paper drawings gave way to 3D CAD (see below). Clients saw the machine before it was built. |
+| 2002 | Physical | **UViS Technologii** · one of the three who started it, de facto founder, paid a salary (see below) · sales, calculations, contracts and project control · the team grew from 3 to about 35 people. |
+| 2004 | Physical | At UViS Technologii I introduced 2D AutoCAD (I was not the designer). |
+| 2008 | Physical | **EKVIPTEH** · co-founder and director · team of up to about 25 · custom machines · 1,000+ projects · exports to 7 countries. |
+| 2010 | Both | At EKVIPTEH, paper drawings gave way to 3D CAD: SolidWorks, later Inventor (see below). Clients saw the machine before it was built. |
 | 2018 | Both | GPU rigs — mechanics-and-code experience meets cryptography. |
 | Today | Both | IT infrastructure and local AI in Germany. |
 
@@ -29,20 +30,20 @@ Three different things are easy to mix up here, so I keep them apart:
 
 | What | When | Source |
 |------|------|--------|
-| First contact with 3D modelling of equipment | from 2002, as I date it | my own recollection |
+| I introduced 2D AutoCAD in the company (I was not the designer) | from 2004 | my own recollection |
 | Paper drawings at EKVIPTEH when it started | 2008 | my own records |
-| EKVIPTEH models everything in 3D, with SolidWorks and then Inventor | about 2010–2011 | my own records |
+| I introduced 3D at EKVIPTEH, with SolidWorks and later Inventor | 2010 | my own records |
 
-I have not tied the 2002 date to a specific company or project here, and I do not claim that
-mass use of 3D began then. What I can state is the company-wide switch at EKVIPTEH around
-2010–2011, described in [Chapter 3](03-principles.md#on-p-03--never-postpone).
+The 2004 date is my recollection of when I introduced 2D AutoCAD; I did the introducing, not the
+drawing. The step to 3D at EKVIPTEH in 2010 is described in
+[Chapter 3](03-principles.md#on-p-03--never-postpone).
 
 ## The full loop — in steel
 
-UViS and EKVIPTEH, 2002–2023: twenty-one years of the same full cycle. In my own words, this is
+UViS Technologii and EKVIPTEH, 2002–2023: twenty-one years of the same full cycle. In my own words, this is
 what one order looked like at EKVIPTEH:
 
-> I ran the company directly, 26 people. I maintained the website myself. I took the customers'
+> I ran the company directly, 25 people. I maintained the website myself. I took the customers'
 > calls and found out what they needed — down to the concept and the task. I worked out how to
 > implement it and broke it into steps. I explained it all to the customer. I calculated
 > everything, estimated the cost so that the company made a profit. Then we agreed, signed the
@@ -87,18 +88,26 @@ delegate to AI the same way.
 
 | Figure | What it measures | Period |
 |--------|------------------|--------|
-| 3 → about 35 | people in the team, UViS | 2002–2007 |
-| about $3M | UViS yearly turnover, in the last year | 2007 |
-| up to about 26 | people in the EKVIPTEH team, at the peak | peak years |
-| about $0.9M | EKVIPTEH yearly turnover, in each of the two best years; other years roughly half | 2012 and 2013 |
+| 3 → about 35 | people in the team, UViS Technologii | 2002–2007 |
+| about $3M | UViS Technologii yearly turnover, in the last year | 2007 |
+| up to about 25 | people in the EKVIPTEH team, at the peak | peak years |
+| up to about $0.9M | EKVIPTEH yearly turnover in its best years; other years roughly half | 2012–2013 |
 | 1,000+ | project folders in the project archive, counted as projects | 2008–2023 |
 | 7 | countries to which equipment was exported | 2008–2023 |
 
 *Rounded figures from my own records and project archive: turnover, not profit; not audited.*
 
-About the claim that UViS was a leader in cellular-concrete lines in the CIS in 2002–2005: that is
-how the company described its position and how I remember it. I cite no independent market
-ranking, so please read it as the author's account, not as a verified fact.
+About the claim that UViS Technologii was a leader in cellular-concrete lines in the CIS in 2002–2005: this
+is my own judgement, and it is subjective. At the time I knew of no comparable website in the CIS
+with such detailed material and video, and the company supplied equipment around the world. I
+cite no independent market ranking, so please read it as the author's account, not as a verified
+fact.
+
+About my role at UViS Technologii: I was one of the three people who started the company, and its name comes
+from their first names. That was an oral arrangement; no document confirms that I was a founder,
+although in practice I was one. I was paid a salary and had no influence over the company's
+finances. Inside the company I worked in the office on marketing, calculations, contracts,
+customer consulting and the link between office and shop floor.
 
 ## I define the control logic; the programmer implements it
 

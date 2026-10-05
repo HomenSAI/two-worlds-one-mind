@@ -39,8 +39,8 @@ not all of them: the others are set by physics, cost and time.
 When my company EKVIPTEH started in 2008, our designer drew on paper. I understood that this was a
 dead end. As soon as we had a designer who could model in 3D, I introduced it immediately — first
 SolidWorks, then Autodesk Inventor, after I heard that the design bureaus of large plants worked
-in it. I bought a powerful computer and graphics cards for it. From about 2010–2011 the company
-modelled everything in 3D. (I had met 3D modelling earlier; see the
+in it. I bought a powerful computer and graphics cards for it. From 2010 the company
+modelled in 3D. (I had already introduced 2D AutoCAD earlier, in 2004; see the
 [timeline in Chapter 6](06-path.md#when-3d-came-in).)
 
 For the customer it changed everything: from his technical brief he quickly got a drawing and

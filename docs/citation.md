@@ -12,15 +12,18 @@ the Vision essay into the metadata of the whole book.
 (BibTeX, `@book` for the book and its editions, `@misc` for the Vision essay) and in the README
 section "How to cite". Git history keeps the old file.
 
-## Option: a CFF with `preferred-citation`
+## Option not taken: a CFF with `preferred-citation`
+
+**Decision of the author, 5 October 2026: no `CITATION.cff`.** `CITATION.bib` and the README remain
+the citation route. The option is kept below for the case that the author changes this later.
 
 If you want GitHub's "Cite this repository" button, a CFF file is the only format GitHub turns
 into APA/BibTeX. The correct form would be a file whose top level only describes the repository
 (`type: dataset` or `software`, with an honest title) and whose `preferred-citation` has
 `type: book` for the handbook. That makes the repository's own description say "software" or
 "dataset" for a book, which is a compromise, and the button's output cannot be checked before the
-file is on the default branch. This is left as a decision for the author
-(see [author-questions.md](author-questions.md), question 8). If it is adopted, the validator in
+file is on the default branch. (See [author-questions.md](author-questions.md), question 8.) If it
+is adopted later, the validator in
 `scripts/` should be extended to check that file against the CFF 1.2.0 schema.
 
 ## The two works

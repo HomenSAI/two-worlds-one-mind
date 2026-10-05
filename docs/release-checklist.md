@@ -5,8 +5,9 @@ to `main`, publishing the release and any archive record need the owner's approv
 
 ## Before the merge
 
-- [ ] Read [author-questions.md](author-questions.md); answer what you can. Nothing blocks the release,
-      but open questions stay visible in the text as neutral wording.
+- [x] Read [author-questions.md](author-questions.md); the author answered all 13 questions on
+      5 October 2026 (see "Answers received"). Open items (EXP-001 data, German proof-reading, Zenodo
+      archive, reading page on homensai.com) stay visible as neutral wording or as later steps.
 - [ ] Read the German edition (or arrange a proof-reader) — [translation-status.md](translation-status.md).
 - [ ] The `docs` workflow is green on the pull request (GitHub Actions → *docs*; both jobs `checks`
       and `build`). Download the artifact `book-preview-<sha>` and open the PDFs and HTML files.
@@ -45,8 +46,9 @@ These places say "draft / unreleased" or avoid a release link until the release 
       add the new DOI to `CITATION.bib`/README.
 - [ ] Apply [github-settings.md](github-settings.md): description, website, topics, rulesets (after the
       workflow has run once on `main`). Check that GitHub now shows the licence as CC BY 4.0.
-- [ ] Confirm the e-mail of future commits (github-settings.md, section 4).
-- [ ] Site recommendation (nothing was changed on homensai.com): add a page or a link block "Read the
-      book" with the release link, the two languages and the PDF/HTML downloads; state the book
+- [x] E-mail of future commits: `info@homensai.com` verified by the owner on 5 October 2026;
+      check that the first pushed commit shows as linked to HomenSAI (github-settings.md, section 4).
+- [ ] Site (nothing was changed on homensai.com; the author chose a page on homensai.com as the main
+      reading page): add a page or a link block "Read the book" with the release link, the two languages and the PDF/HTML downloads; state the book
       version and that the text is not synchronised with the site.
 - [ ] Copy the release to Drive/Obsidian as usual.

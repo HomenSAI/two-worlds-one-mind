@@ -33,7 +33,7 @@ Computers since school (the table shows when each step began; some of them overl
 |-------|------|
 | 1993–1998 | Systems engineering at university; first steps with AI, in Lisp |
 | 1997–1998 | Public-key cryptography (PGP); distributed key cracking |
-| from 2002 | 3D modelling of equipment — first use as the author dates it; the switch of a whole company to 3D came later, see [Chapter 6](06-path.md) |
+| from 2004 | Computer-aided design — I introduced 2D AutoCAD in the company (I was not the designer); 3D with SolidWorks came in 2010, see [Chapter 6](06-path.md#when-3d-came-in) |
 | 2018 → | GPU rigs, cryptocurrency |
 | 2023 → | AI as an everyday working tool; local AI lab |
 

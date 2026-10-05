@@ -20,7 +20,7 @@
 ## Worum es geht
 
 Ein kurzes Handbuch über **systemisches Denken, KI-gestützte Arbeit und den Punkt, an dem Maschinen und
-Software sich treffen**. Es entstand aus zwanzig Jahren Konstruktion von Maschinen und Produktionslinien und
+Software sich treffen**. Es entstand aus zwanzig Jahren Bau von Maschinen und Produktionslinien und
 aus der heutigen Arbeit mit Robotik, Automatisierung und lokaler KI. Jedes Kapitel ist eine Idee auf wenigen
 Seiten; das letzte Kapitel macht aus den Ideen Checklisten. Kapitel 7 ist ein deutlich gekennzeichneter
 spekulativer Essay.
@@ -101,7 +101,7 @@ Praktisches Material: [templates/intent-card.de.md](templates/intent-card.de.md)
 ## Autor
 
 **Serhii Khomenko** — Diplom-Systemingenieur, Region Stuttgart, Deutschland.
-Zwanzig Jahre Konstruktion von Maschinen, Produktionslinien und der Logik, die sie steuert; heute Robotik,
+Zwanzig Jahre Bau von Maschinen, Produktionslinien und der Logik, die sie steuert; heute Robotik,
 Automatisierung und lokale KI.
 
 - Website: <https://homensai.com/>
@@ -145,8 +145,8 @@ Ausgabe aus welcher Version der Website und welchem Commit entstand:
 Text und Diagramme: © 2026 Serhii Khomenko, lizenziert unter
 [Creative Commons Namensnennung 4.0 International (CC BY 4.0)](LICENSE) — Sie dürfen sie teilen und
 bearbeiten, auch kommerziell, solange Sie den Autor nennen und auf die Lizenz verweisen. Name und Zeichen
-„HomenS.A Inc.“ sind nicht erfasst; Einzelheiten, auch zum Zeichen in der Roboter-Illustration und zum Status
-der Build-Skripte, stehen in [LICENSING.md](LICENSING.md) (englisch).
+„HomenS.A Inc.“ sind nicht erfasst. Build-Skripte und Beispielcode: [MIT](LICENSE-CODE). Einzelheiten, auch zum
+Zeichen in der Roboter-Illustration, stehen in [LICENSING.md](LICENSING.md) (englisch).
 
 „HomenS.A Inc.“ ist der Markenname des Autors, kein eingetragenes Unternehmen und keine juristische Person.
 Dies ist ein privates, nichtkommerzielles Projekt: Nichts hier wird zum Verkauf angeboten.

@@ -28,26 +28,20 @@ company or legal entity.
 The robot in `assets/line-of-development.svg` carries the gear-and-circuit mark on its chest. This
 is the one place where the book's illustration and the excluded mark meet.
 
-**Status: pending the author's decision.** Until it is settled, the safe reading is: the
-illustration as a whole may be reproduced under CC BY 4.0 **unchanged and with attribution**,
-because it is part of the licensed material; the mark must not be taken out of the picture and
-used on its own, or used to suggest endorsement. The exact wording below is proposed for the
-author to approve or change; it has **not** been adopted yet:
-
-> The illustration `line-of-development.svg` may be reproduced and adapted under CC BY 4.0,
-> including the HomenS.A mark that is part of the robot figure, as long as the mark is not
-> separated from the illustration, is not used to suggest endorsement, and the attribution is kept.
-> Any other use of the mark requires written permission.
+**Status: decided by the author on 5 October 2026.** The illustration `line-of-development.svg`
+may be reproduced and adapted under CC BY 4.0, including the HomenS.A mark that is part of the
+robot figure, as long as the mark is not separated from the illustration, is not used to suggest
+endorsement, and the attribution is kept. Any other use of the mark requires written permission.
 
 (See also [docs/author-questions.md](docs/author-questions.md), question 7.)
 
 ## Build scripts and tools
 
 The scripts in `scripts/`, `Dockerfile`, the `.github/` workflows and the example scripts in
-`examples/order-table/` are code, not text of the book. **No licence has been chosen for them
-yet.** Proposal, not yet approved by the author: the MIT licence for code, kept separate from the
-book. Until the author decides, all rights in the code are reserved by the author, apart from the
-right to run it to build and check this book.
+`examples/order-table/` are code, not text of the book. They are licensed under the **MIT licence**
+(decided by the author on 5 October 2026); the legal text is in [LICENSE-CODE](LICENSE-CODE). The
+book itself stays under CC BY 4.0. The data and documentation of the worked example remain under
+CC BY 4.0 as listed above.
 
 ## How GitHub recognises the licence
 

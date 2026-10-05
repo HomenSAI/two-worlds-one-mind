@@ -42,8 +42,8 @@ Als meine Firma EKVIPTEH 2008 startete, zeichnete unser Konstrukteur auf Papier.
 das eine Sackgasse war. Sobald wir einen Konstrukteur hatten, der in 3D modellieren konnte, führte ich
 es sofort ein — zuerst SolidWorks, dann Autodesk Inventor, nachdem ich gehört hatte, dass die
 Konstruktionsbüros großer Werke damit arbeiteten. Ich kaufte dafür einen leistungsstarken Rechner und
-Grafikkarten. Ab etwa 2010–2011 modellierte das Unternehmen alles in 3D. (Ich war 3D-Modellierung
-schon früher begegnet; siehe die [Zeitübersicht in Kapitel 6](06-path.md#wann-3d-kam).)
+Grafikkarten. Ab 2010 modellierte das Unternehmen in 3D. (2D-AutoCAD hatte ich schon früher, 2004,
+eingeführt; siehe die [Zeitübersicht in Kapitel 6](06-path.md#wann-3d-kam).)
 
 Für den Kunden änderte das alles: Aus seinem technischen Lastenheft bekam er schnell eine Zeichnung
 und sah, was er erhalten würde — statt mündlicher Erklärungen und grober Skizzen. Korrekturen wurden

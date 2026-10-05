@@ -10,6 +10,10 @@ audit; the traceability of every finding is in `docs/audit-resolution.md`.
   for testing AI that influences a machine; "Local AI" no longer implies that data stays local, with a
   data-flow checklist; the Vision chapter separates facts and hypotheses and cites its sources; the
   author's career claims state what each figure measures; Notes rewritten with full references.
+- **Author facts:** the author's answers of 5 October 2026 are applied: 2D AutoCAD introduced from
+  2004 and 3D from 2010; EKVIPTEH team up to about 25; turnover of up to about $0.9M is stated for
+  EKVIPTEH only; the role at UViS Technologii is described as de facto founder under an oral arrangement, paid a
+  salary.
 - **Practice:** a worked example with synthetic data and executed checks (`examples/order-table`), a
   copyable intent card (`templates/`), and a protocol for EXP-001 in which every unknown field is marked
   `PENDING` — nothing was measured or invented.
@@ -17,7 +21,9 @@ audit; the traceability of every finding is in `docs/audit-resolution.md`.
   translation, not reviewed by a native speaker (`docs/translation-status.md`).
 - **Citation:** `CITATION.bib` with separate records for the book and the Vision essay; the invalid
   `CITATION.cff` is retired; the Zenodo DOI is labelled as the Vision essay's.
-- **Licence:** standard CC BY 4.0 text in `LICENSE`; scope in `LICENSING.md`.
+- **Licence:** standard CC BY 4.0 text in `LICENSE`; scope in `LICENSING.md`; MIT for the build
+  scripts and example code (`LICENSE-CODE`); the robot illustration may be reproduced with its mark
+  under the conditions in `LICENSING.md`.
 - **Downloads:** complete book as one PDF and one self-contained HTML file in English and German, with
   `SHA256SUMS` and `manifest.json`.
 

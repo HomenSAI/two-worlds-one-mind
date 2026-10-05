@@ -55,6 +55,21 @@ follow the audit of 5 October 2026; each finding and what was done about it is i
 - Wrong link caption in Field guide section 7 fixed (C11); philosophical management introduced as
   the author's own term and "hardware (non-IT)" replaced by mechanical systems (C12).
 - Language fixes (calques, repeated slogans); wellbeing remark phrased as personal experience.
+- Author's answers of 5 October 2026 applied to Chapters 1, 3 and 6 (English and German): 2D AutoCAD
+  introduced by the author from 2004 (not as the designer) and 3D (SolidWorks, later Inventor) from
+  2010, replacing "3D from 2002"; EKVIPTEH team at the peak "up to about 25" (was 26); turnover of
+  "up to about $0.9M" given for EKVIPTEH only, for its best years 2012–2013; "CIS leader" for UViS Technologii
+  kept as the author's subjective judgement with its stated reason; the author's role at UViS Technologii stated
+  as one of the three who started it, de facto founder, oral arrangement without documents, paid a
+  salary, no influence on finances.
+
+### Licence decisions (author, 5 October 2026)
+
+- The illustration `line-of-development.svg` may be reproduced under CC BY 4.0 including the mark on
+  the robot, if the mark is not separated and no endorsement is suggested.
+- Build scripts, workflows and example scripts: MIT licence ([LICENSE-CODE](LICENSE-CODE)); the book
+  stays CC BY 4.0.
+- No `CITATION.cff`; `CITATION.bib` and the README remain the citation route.
 
 ### German edition and tools
 

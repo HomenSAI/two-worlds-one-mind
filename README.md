@@ -19,7 +19,7 @@
 ## What this is
 
 A short handbook on **systems thinking, AI-assisted work and the point where machines and software
-meet**. It is written from twenty years of designing machines and production lines, and from
+meet**. It is written from twenty years of building machines and production lines, and from
 today's work with robotics, automation and local AI. Each chapter is one idea in a few pages; the
 last chapter turns the ideas into checklists. Chapter 7 is a clearly marked speculative essay.
 
@@ -96,7 +96,7 @@ Practical material: [templates/intent-card.md](templates/intent-card.md) ·
 ## Author
 
 **Serhii Khomenko** — Diplom-Systemingenieur, Stuttgart region, Germany.
-Twenty years designing machines, production lines and the logic that runs them; today
+Twenty years building machines, production lines and the logic that runs them; today
 robotics, automation and local AI.
 
 - Site: <https://homensai.com/>
@@ -139,8 +139,8 @@ written from which version of the site, and which commit: [docs/provenance.md](d
 Text and diagrams: © 2026 Serhii Khomenko, licensed under
 [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE) — you may share and adapt
 them, also commercially, as long as you name the author and link to the licence. The name and mark
-"HomenS.A Inc." are not covered; details, including the mark in the robot illustration and the
-status of the build scripts, are in [LICENSING.md](LICENSING.md).
+"HomenS.A Inc." are not covered. Build scripts and example code: [MIT](LICENSE-CODE). Details,
+including the mark in the robot illustration, are in [LICENSING.md](LICENSING.md).
 
 "HomenS.A Inc." is the author's brand name, not a registered company or legal entity. This is a
 private, non-commercial project: nothing here is offered for sale.
