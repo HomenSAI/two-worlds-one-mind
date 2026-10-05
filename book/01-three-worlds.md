@@ -1,6 +1,6 @@
 # 1 · Three worlds
 
-[Contents](../README.md) · [← 0 · Preface](00-preface.md) · Next: [2 · Manifesto →](02-manifesto.md)
+[Contents](../README.md) · [Deutsch](de/01-three-worlds.md) · [← 0 · Preface](00-preface.md) · Next: [2 · Manifesto →](02-manifesto.md)
 
 > **In one line:** imagination, machines and code — three worlds led me to the same place: from code to intent.
 > On the site: [homensai.com](https://homensai.com/)
@@ -22,24 +22,24 @@ them. And almost always custom work: the customer brought an idea, we brought th
 implementation.
 
 We kept building new equipment, and I always tried to improve it — make it more beautiful,
-more technological, simpler. It was the world of a time when mechanical engineering led the
+more technically advanced, simpler. It was the world of a time when mechanical engineering led the
 economy.
 
 ## World 2 · The digital world, since 1991
 
-Computers since school. Then, step by step:
+Computers since school (the table shows when each step began; some of them overlap):
 
 | Years | What |
 |-------|------|
 | 1993–1998 | Systems engineering at university; first steps with AI, in Lisp |
 | 1997–1998 | Public-key cryptography (PGP); distributed key cracking |
-| 2002–2023 | 3D modelling of equipment |
+| from 2002 | 3D modelling of equipment — first use as the author dates it; the switch of a whole company to 3D came later, see [Chapter 6](06-path.md) |
 | 2018 → | GPU rigs, cryptocurrency |
 | 2023 → | AI as an everyday working tool; local AI lab |
 
 ## Where they meet
 
-For most of my life I lived in both worlds at the same time. Pure hardware or pure code never
+For most of my life I lived in both worlds at the same time. Pure mechanics or pure code never
 held my interest. The interesting part — and the bigger opportunity — begins where the two meet.
 
 ```mermaid
@@ -63,8 +63,10 @@ flowchart LR
 
 The code does not disappear. It moves one level down — like machine code moved under
 high-level languages decades ago. What moves up is the human part: knowing what you want, and
-being able to check that you got it.
+being able to check that you got it. Note the arrow back from *Verify*: a result that does not
+pass the check goes back to the plan — or, as [Chapter 3](03-principles.md#uncertainty-start-with-doubt-finish-with-an-outcome)
+shows, may end with changed requirements or a decision to stop.
 
 ---
 
-[Contents](../README.md) · [← 0 · Preface](00-preface.md) · Next: [2 · Manifesto →](02-manifesto.md)
+[Contents](../README.md) · [Deutsch](de/01-three-worlds.md) · [← 0 · Preface](00-preface.md) · Next: [2 · Manifesto →](02-manifesto.md)

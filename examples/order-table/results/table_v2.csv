@@ -1,0 +1,13 @@
+file,order_id,year,amount,currency,status,reason
+order-001.txt,SYN-2019-001,2019,12450.00,EUR,ok,
+order-002.txt,SYN-2019-002,2019,8900.50,EUR,ok,
+order-003.txt,SYN-2019-003,2019,3200.00,USD,ok,
+order-004.txt,SYN-2019-004,2019,,,review,amount ambiguous
+order-005.txt,SYN-2020-005,2020,,,review,amount missing
+order-006.txt,SYN-2020-006,2020,11900.00,EUR,ok,
+order-007.txt,SYN-2020-007,2020,3200.00,EUR,ok,
+order-008.txt,SYN-2020-008,2020,45000.00,EUR,ok,
+order-009.txt,SYN-2021-009,2021,1250000,JPY,ok,
+order-010.txt,SYN-2021-010,2021,,,review,amount ambiguous
+order-011.txt,SYN-2021-011,2021,2.10,EUR,ok,
+order-012.txt,SYN-2022-012,,5000.00,EUR,review,year ambiguous
