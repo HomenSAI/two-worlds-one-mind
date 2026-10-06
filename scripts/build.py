@@ -6,7 +6,7 @@ Run inside the Docker image (see scripts/build.sh). Output goes to dist/:
   two-worlds-one-mind_<version>_<lang>.pdf
   SHA256SUMS, manifest.json
 
-Environment: BUILD_COMMIT (source commit), RELEASE_STATE (draft|released), SOURCE_DATE_EPOCH (optional).
+Environment: BUILD_COMMIT (source commit), RELEASE_STATE (released|draft; default released), SOURCE_DATE_EPOCH (optional).
 """
 import base64
 import datetime
@@ -26,7 +26,7 @@ import mermaid_render  # noqa: E402
 
 DIST = ROOT / "dist"
 VERSION = (ROOT / "VERSION").read_text().strip()
-STATE = os.environ.get("RELEASE_STATE", "draft")
+STATE = os.environ.get("RELEASE_STATE", "released")
 COMMIT = os.environ.get("BUILD_COMMIT", "unknown")
 if os.environ.get("SOURCE_DATE_EPOCH"):
     NOW = datetime.datetime.fromtimestamp(int(os.environ["SOURCE_DATE_EPOCH"]), datetime.timezone.utc)

@@ -10,7 +10,8 @@ M6  no unconfirmed promises: no "forever" storage claim, no claim that GitHub an
     automatically, the DOI badge is labelled as the essay;
 M7  no CITATION.cff with the invalid root type remains active;
 M8  published tag URLs: README does not link to a release of the current (unreleased) version.
-Set RELEASE_STATE=released to skip the draft-specific rules (M4, M8) when checking a release.
+Default is RELEASE_STATE=released (the state of main). Set RELEASE_STATE=draft on a draft branch of the next
+edition to apply the draft-specific rules (M4, M8).
 """
 import os
 import re
@@ -30,7 +31,7 @@ def err(msg):
 
 def main():
     version = (ROOT / "VERSION").read_text().strip()
-    released = os.environ.get("RELEASE_STATE", "draft") == "released"
+    released = os.environ.get("RELEASE_STATE", "released") == "released"
     bib = bibtexparser.loads((ROOT / "CITATION.bib").read_text(encoding="utf-8"))
     entries = {e["ID"]: e for e in bib.entries}
     if not entries:

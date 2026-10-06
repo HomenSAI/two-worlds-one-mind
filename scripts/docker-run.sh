@@ -12,6 +12,6 @@ export MSYS_NO_PATHCONV=1
 if command -v cygpath >/dev/null 2>&1; then HOSTDIR="$(pwd -W)"; else HOSTDIR="$(pwd)"; fi
 COMMIT="${BUILD_COMMIT:-$(git rev-parse HEAD 2>/dev/null || echo unknown)}"
 exec docker run --rm \
-  -e BUILD_COMMIT="$COMMIT" -e RELEASE_STATE="${RELEASE_STATE:-draft}" \
+  -e BUILD_COMMIT="$COMMIT" -e RELEASE_STATE="${RELEASE_STATE:-released}" \
   ${SOURCE_DATE_EPOCH:+-e SOURCE_DATE_EPOCH="$SOURCE_DATE_EPOCH"} \
   -v "$HOSTDIR":/work -w /work "$IMAGE" "$@"

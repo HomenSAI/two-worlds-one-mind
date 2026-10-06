@@ -8,6 +8,9 @@ needed on your computer):
 ./scripts/check.sh      # all checks that need no build
 ```
 
+By default the scripts treat the checkout as a published edition (`RELEASE_STATE=released`, the state of `main`).
+On a draft branch of the next edition run them with `RELEASE_STATE=draft`.
+
 On Windows use Git Bash (or WSL). The first run builds the image `two-worlds-one-mind-build:1` from the
 [Dockerfile](../Dockerfile), which takes a few minutes; later runs are fast. The container sees only this
 repository, mounted at `/work`, and no network is needed for the build itself.
