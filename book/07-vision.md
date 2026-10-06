@@ -68,7 +68,7 @@ own vision built around it.
 My personal belief: **one possible way** for a human being — as an individual — to travel through
 the Universe is this. *If* consciousness can be transferred into a robot, a person becomes
 *Homo roboticus*: the life of one mind need not end, and that mind can go anywhere. It is a
-hypothetical scenario, not a proven or the only route; other routes, including slow
+hypothetical scenario, neither a proven route nor the only one; other routes, including slow
 generation ships or biological adaptation, are conceivable.
 
 | A person | → | Homo roboticus |

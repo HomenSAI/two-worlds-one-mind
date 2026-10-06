@@ -70,7 +70,7 @@ From [Chapter 5 · Method](05-lab.md#method-not-done-until-verified).
 - [ ] Did I check it on a real case — a real machine, a real document, a real customer?
 - [ ] Did I check the edges — maximum load, empty input, wrong input?
 - [ ] Is the failure written down too, with its number?
-- [ ] Would I sign under this result with my name?
+- [ ] Would I put my name to this result?
 
 No result counts until it is checked.
 

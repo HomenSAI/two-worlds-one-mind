@@ -38,7 +38,7 @@ not all of them: the others are set by physics, cost and time.
 
 When my company EKVIPTEH started in 2008, our designer drew on paper. I understood that this was a
 dead end. As soon as we had a designer who could model in 3D, I introduced it immediately — first
-SolidWorks, then Autodesk Inventor, after I heard that the design bureaus of large plants worked
+SolidWorks, then Autodesk Inventor, after I heard that the design offices of large plants worked
 in it. I bought a powerful computer and graphics cards for it. From 2010 the company
 modelled in 3D. (I had already introduced 2D AutoCAD earlier, in 2004; see the
 [timeline in Chapter 6](06-path.md#when-3d-came-in).)
@@ -61,8 +61,8 @@ who can.
 
 ### On P-06 — the experimenter
 
-I count myself among the experimenters: people who, without being in a university or institute,
-want with all their heart to learn everything new and to understand the world around them. If you
+I count myself among the experimenters: people who, without being at a university or institute,
+want wholeheartedly to learn everything new and to understand the world around them. If you
 have imagination and the wish to try and to study — really study — you do not have to wade through
 outdated academic routines first. In my experience that increases productivity, results and
 quality.

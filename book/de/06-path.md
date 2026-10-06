@@ -51,7 +51,7 @@ Worten sah ein Auftrag bei EKVIPTEH so aus:
 > Projekt konnte in mehreren Etappen versandt werden. Ich gab den Konstrukteuren Aufgaben, und sie
 > arbeiteten die Zeichnungen aus. Dann wurde das Material gekauft. Ich kontrollierte den
 > Materialeingang und was auf Lager war oder nicht. Mit dem Werkstattleiter verteilte ich die Arbeit,
-> legte Termine, Intensität, Prioritäten und die Wünsche des Kunden fest und kontrollierte dann alles;
+> legte Termine, Tempo, Prioritäten und die Wünsche des Kunden fest und kontrollierte dann alles;
 > bei Schwierigkeiten half ich, sie zu lösen. Ich ging immer in die Werkstatt, um zu sehen, was fertig
 > war, was nicht, wo die Probleme lagen. Dann wurde montiert, bezahlt, versandt, beim Kunden erneut
 > montiert, und die Inbetriebnahme wurde dort kontrolliert. Wenn es Fragen gab, wurden sie geklärt.

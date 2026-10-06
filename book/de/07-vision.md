@@ -89,7 +89,7 @@ Eine Veranschaulichung, kein Zeitplan.
 | Wann | Was |
 |------|-----|
 | **Heute** | Robotische Raumfahrzeuge haben Orte erreicht, die Menschen nicht erreicht haben. Rover fahren auf dem Mars; Voyager 1, 1977 gestartet, ist seit 2012 im interstellaren Raum und steht weiterhin in Kontakt mit der Erde (NASA; geprüft am 5. Oktober 2026). |
-| **+100 Jahre** | Ein Szenario: robotische Außenposten. Roboter könnten auf dem Mond, auf dem Mars und auf Asteroiden schürfen, bauen und reparieren, lange vor den Menschen — oder an ihrer Stelle. |
+| **+100 Jahre** | Ein Szenario: robotische Außenposten. Roboter könnten auf dem Mond, auf dem Mars und auf Asteroiden Rohstoffe abbauen, bauen und reparieren, lange vor den Menschen — oder an ihrer Stelle. |
 | **+1.000 Jahre** | Ein Szenario: das Sonnensystem als Werkstatt. Planeten und Monde sind erreicht; Versorgungslinien laufen selbstständig, unter geprüfter Kontrolle. |
 | **+10.000 … 1 Million Jahre** | Ein Szenario: Nachbarsterne. Langsame, sich selbst vervielfältigende Sonden bauen aus lokalem Material Kopien und ziehen weiter, von Stern zu Stern. |
 | **+Millionen Jahre** | Ein Szenario: die Galaxis. Die Milchstraße misst grob 100.000 Lichtjahre im Durchmesser; veröffentlichte Schätzungen, wie schnell sich selbst vervielfältigende Sonden sie durchqueren könnten, sind spekulativ und reichen bis zu vielen Millionen Jahren. Was sich ausbreitet, ist nicht Metall — es sind Neugier und Gedächtnis des Lebens, das hier begann. |

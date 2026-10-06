@@ -14,7 +14,7 @@ ab. Testen Sie sie selbst.
 
 ```mermaid
 flowchart LR
-    Q[Frage] --> H[Aufbau<br/><i>Werkzeuge, Daten</i>] --> R[Durchlauf] --> M[Messung] --> V{Bestätigt?}
+    Q[Frage] --> H[Aufbau<br/><i>Werkzeuge, Daten</i>] --> R[Durchlauf] --> M[Messung] --> V{Geprüft?}
     V -- ja --> D([Ergebnis festhalten])
     V -- nein --> H
 ```

@@ -49,7 +49,7 @@ statt über Code, ohne auf die Prüfung des Ergebnisses zu verzichten.
 **Physische KI (Physical AI)** — KI, die über Roboter, Antriebe, Ventile, Sensoren und Maschinen in der
 physischen Welt handelt — und dort getestet wird.
 
-**Prüfkreislauf (Verification loop)** — Frage → Aufbau → Durchlauf → Messung → bestätigt? Wenn nicht,
+**Prüfkreislauf (Verification loop)** — Frage → Aufbau → Durchlauf → Messung → geprüft? Wenn nicht,
 zurück zum Aufbau. Erst fertig, wenn geprüft.
 
 **Vom Code zur Absicht** — der in diesem Buch beschriebene Wandel: Der menschliche Anteil am Bauen

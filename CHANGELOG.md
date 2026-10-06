@@ -12,6 +12,11 @@ the site is in [docs/provenance.md](docs/provenance.md).
 
 ## Unreleased
 
+- Translation check of the English text and the German edition (second pass, see
+  [docs/translation-status.md](docs/translation-status.md)): small wording corrections in both languages, and
+  the paragraph about the Zenodo Software record added to `README.de.md`, where it was missing. The scripts
+  now treat the checkout as a published edition by default (`RELEASE_STATE=released`).
+
 - Two Zenodo records of edition 1.1 are now explained and linked: the book (the one to cite) and the
   Software record of the GitHub release (sources, 10.5281/zenodo.23159950). On the Software record the
   author is now Khomenko, Serhii (ORCID) instead of the account name, and both records point to each

@@ -81,8 +81,8 @@ Drei Regeln machen das möglich:
 
 1. **Delegieren wie ein Direktor.** Aufgabe, Termin, Ressourcen, Kontrolle — an Menschen und an KI.
 2. **Prüfen wie ein Ingenieur.** Kein Ergebnis zählt, bevor es geprüft ist.
-3. **Wissen, wohin die Daten gehen.** Sensible Arbeit lässt sich vielleicht besser mit lokaler KI
-   erledigen, aber ein lokal laufendes Modell hält Daten für sich allein noch nicht lokal
+3. **Wissen, wohin die Daten gehen.** Arbeit mit sensiblen Daten lässt sich vielleicht besser mit
+   lokaler KI erledigen, aber ein lokal laufendes Modell hält Daten für sich allein noch nicht lokal
    ([Praxisleitfaden, Abschnitt 6](08-field-guide.md#6-wissen-wohin-ihre-daten-gehen)).
 
 ## Die Welt beschleunigt sich

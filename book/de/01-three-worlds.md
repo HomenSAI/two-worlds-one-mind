@@ -27,8 +27,8 @@ anführte.
 
 ## Welt 2 · Die digitale Welt, seit 1991
 
-Computer seit der Schulzeit. Dann, Schritt für Schritt (die Tabelle zeigt, wann jeder Schritt
-begann; einige überschneiden sich):
+Computer seit der Schulzeit (die Tabelle zeigt, wann jeder Schritt begann; einige überschneiden
+sich):
 
 | Jahre | Was |
 |-------|-----|

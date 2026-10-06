@@ -50,7 +50,7 @@ what one order looked like at EKVIPTEH:
 > contract, received payment, and planned every stage of shipment — a complex project could ship
 > in several stages. I gave tasks to the designers and they worked out the drawings. Then the
 > materials were bought. I controlled the incoming materials and what was or was not in stock.
-> With the head of the workshop I distributed the work, set deadlines, intensity, priorities and
+> With the head of the workshop I distributed the work, set deadlines, pace, priorities and
 > the customer's wishes, and then controlled it all; if there were difficulties, I helped solve
 > them. I always went to the shop floor to see what was ready, what was not, what the problems
 > were. Then it was assembled, paid, shipped, assembled again at the customer's site, and
