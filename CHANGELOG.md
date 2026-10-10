@@ -7,6 +7,9 @@ guarantee of long-term preservation; see the [README](README.md#versions).
 Numbering: `1.1, 1.2 …` — edits, new sections, corrections; `2.0` — a new edition (new structure or
 a large new part).
 
+Language: from the next entry on, every entry and every GitHub release description is written in
+English first, with the same text in Russian directly below it.
+
 **Last published release: [1.1](#11--2026-10-05).** Which edition was written from which version of
 the site is in [docs/provenance.md](docs/provenance.md).
 
